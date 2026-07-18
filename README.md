@@ -149,6 +149,12 @@ SRS_INTERVALS = [1, 2, 4, 7, 14, 30, 60]  // 天數
 - **每日挑戰(新分頁)**:每天固定 8 句(用日期字串當種子洗牌,同一天重整頁面題目不變,隔天自動換一批,不用另外存「今天玩過了嗎」這種狀態),玩法是快閃卡:先看中文,自己試著念出韓文,按「顯示韓文」對答案,再自評「記得/不熟」。這裡的自評一樣會寫進 SRS 複習排程,不是玩假的小遊戲,也會影響「今日複習」。程式碼在 `src/components/DailyChallenge.tsx` + `src/lib/dailyChallenge.ts`。
 - **視覺活潑化**:導覽列 7 個分頁都加上對應 emoji(📖🎙️🔁🎯📚✏️🌐📊);情境瀏覽/單字/文法/進度總覽/每日挑戰裡的「飯店櫃檯」「日常約會」分類標題都加上 🏨/💕;全站按鈕新增按下去會有輕微縮小的回饋動畫(`transform: scale(0.96)`),點擊起來更有回饋感。
 
+## 第十三輪:錄音完自動評分(已移除)
+
+原本依你的要求做了「錄音完自動評分」,用 Azure 語音服務的發音評估 API(因為 iPhone Safari 不支援瀏覽器內建語音辨識,才選 Azure)。你後來反應申請 Azure 帳號、設定金鑰太麻煩,決定不要這個功能,已經整個移除,`ShadowingPractice.tsx` 恢復成單純自評「滿意/需加強」的版本,`package.json` 也拿掉了 `microsoft-cognitiveservices-speech-sdk` 依賴。
+
+- `src/components/Settings.tsx`、`src/lib/azureConfig.ts`、`src/lib/wavEncoder.ts`、`src/lib/pronunciationAssessment.ts` 這 4 個檔案已經沒有任何地方引用,技術上刪不掉(跟前面提到的 `public/icons.svg` 一樣,這個資料夾是唯讀掛載,只能新增/覆蓋不能刪除),麻煩你自己在 Finder 裡刪掉這 4 個檔案就可以,不影響網站運作。
+
 ## 其他備註
 
 - **不顯示羅馬拼音**:依你的要求,句卡已經拿掉羅馬拼音顯示/切換按鈕,只留韓文 + 中文,逼自己直接讀諺文。這剛好也是原本設計交付檔裡明確寫的產品需求(「No romanization is shown anywhere ... per product requirement」),兩邊一致。
@@ -166,10 +172,12 @@ src/
 │   └── vocabulary.json                  # 單字表(飯店 25 + 約會 10 = 35)
 ├── components/     # ScenarioBrowser / SentenceCard / ShadowingPractice / AudioRecorder / AudioPlayer /
 │                   # SRSReviewSession / ProgressDashboard / VocabBrowser / VocabCard /
-│                   # GrammarBrowser / GrammarCard
+│                   # GrammarBrowser / GrammarCard / TranslateTool / DailyChallenge / Celebration /
+│                   # ErrorBoundary
 ├── hooks/          # useAudioRecorder / useSRS(含 useDueSentences)/ useIndexedDB(含匯出匯入)
-├── lib/            # srsAlgorithm.ts(已複製 Caption Note 邏輯)/ ttsGenerator.ts(未使用,保留參考)
-└── App.tsx         # 6 個分頁的簡易導覽(瀏覽 / 練習 / 複習 / 單字 / 文法 / 進度)
+├── lib/            # srsAlgorithm.ts(已複製 Caption Note 邏輯)/ ttsGenerator.ts(未使用,保留參考)/
+│                   # gamification.ts(XP/等級/成就)/ dailyChallenge.ts(每日挑戰洗牌邏輯)
+└── App.tsx         # 8 個分頁的簡易導覽(瀏覽 / 練習 / 複習 / 每日挑戰 / 單字 / 文法 / 中翻韓 / 進度)
 ```
 
 ## 技術備註

@@ -22,6 +22,9 @@ interface ShadowingPracticeProps {
 // 2) 錄完立即回放,自己聽發音準不準
 // 3) 自評滿意/需加強 → 寫入 SRS 紀錄,決定下次複習時間
 // 4) 錄音存 IndexedDB(本機,不上傳雲端)
+//
+// 註:曾經加過「錄完自動評分」(呼叫 Azure 語音服務的發音評估 API),
+// 你覺得申請金鑰太麻煩,已經整個移除,恢復成單純自評的版本。
 export function ShadowingPractice({ sentence, onNext }: ShadowingPracticeProps) {
   const { record, recordAttempt } = useSRS(sentence.id);
   const [userBlob, setUserBlob] = useState<Blob | null>(null);
