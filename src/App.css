@@ -359,14 +359,26 @@
 
 .progress-dashboard__row-top {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: var(--space-2);
+}
+
+.progress-dashboard__row-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .progress-dashboard__row-title {
   font-weight: 700;
   font-size: 14px;
+}
+
+.progress-dashboard__row-title-zh {
+  font-size: 12px;
+  font-weight: 400;
+  color: color-mix(in srgb, var(--color-text) 70%, transparent);
 }
 
 .progress-dashboard__row-domain {

@@ -13,6 +13,31 @@ const DOMAIN_LABEL: Record<Sentence["domain"], string> = {
   daily_dating: "日常約會",
 };
 
+// Category 是資料檔案裡的英文代碼(例如 "check_in"、"casual_chat"),只拿來
+// 當作分組 key,畫面上不直接顯示英文,改用這裡的韓中對照名稱。
+const CATEGORY_LABEL: Record<string, { ko: string; zh: string }> = {
+  // 飯店櫃檯
+  check_in: { ko: "체크인", zh: "入住登記" },
+  amenities_info: { ko: "일회용품 안내", zh: "一次性用品說明" },
+  bedsheet_change: { ko: "침구 교체", zh: "床單寢具更換" },
+  facilities_info: { ko: "시설 안내", zh: "飯店設施介紹" },
+  item_requests: { ko: "비품 요청 응대", zh: "備品需求應對" },
+  phone_handling: { ko: "전화 응대", zh: "電話應對" },
+  room_issues: { ko: "객실 문제 응대", zh: "房間問題應對" },
+  room_key_wifi: { ko: "객실 안내", zh: "房卡與網路說明" },
+  // 日常約會
+  first_meeting: { ko: "첫 만남", zh: "初次見面" },
+  making_plans: { ko: "약속 잡기", zh: "約定與行程安排" },
+  texting_phrases: { ko: "문자 표현", zh: "訊息聊天用語" },
+  expressing_interest: { ko: "호감 표현", zh: "表達好感" },
+  restaurant_ordering: { ko: "식사 자리", zh: "用餐場合應對" },
+  casual_chat: { ko: "데이트 잡담", zh: "約會閒聊" },
+};
+
+function getCategoryLabel(category: string): { ko: string; zh: string } {
+  return CATEGORY_LABEL[category] ?? { ko: category, zh: category };
+}
+
 // 進度總覽(架構文件 3.4 節):各 Category 完成度 + streak。
 // Streak 計算先用「有練習紀錄的相異日期是否連續」的簡化版本;
 // 之後要換 Caption Note 既有的 streak check-in 機制時,只需要替換
@@ -122,6 +147,7 @@ export function ProgressDashboard() {
       <div className="progress-dashboard__list">
         {byCategory.map(({ category, domain, total, practiced }) => {
           const pct = total === 0 ? 0 : Math.round((practiced / total) * 100);
+          const label = getCategoryLabel(category);
           return (
             <div
               key={category}
@@ -129,7 +155,14 @@ export function ProgressDashboard() {
               data-domain={domain}
             >
               <div className="progress-dashboard__row-top">
-                <span className="progress-dashboard__row-title">{category}</span>
+                <span className="progress-dashboard__row-title-group">
+                  <span className="progress-dashboard__row-title" lang="ko">
+                    {label.ko}
+                  </span>
+                  <span className="progress-dashboard__row-title-zh" lang="zh-Hant">
+                    {label.zh}
+                  </span>
+                </span>
                 <span className="progress-dashboard__row-domain">
                   {DOMAIN_LABEL[domain]}
                 </span>
