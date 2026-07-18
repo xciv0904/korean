@@ -289,8 +289,9 @@
   background: var(--color-surface);
   cursor: pointer;
   display: flex;
-  justify-content: space-between;
-  gap: var(--space-3);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
   box-shadow: var(--shadow-sm);
 }
 
@@ -301,11 +302,13 @@
 .scenario-browser__korean {
   font-weight: 600;
   font-size: 15px;
+  line-height: 1.5;
 }
 
 .scenario-browser__chinese {
   color: color-mix(in srgb, var(--color-text) 70%, transparent);
   font-size: 13px;
+  line-height: 1.5;
 }
 
 /* ---- SRS review ---- */
