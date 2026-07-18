@@ -6,12 +6,13 @@ import { SRSReviewSession } from "./components/SRSReviewSession";
 import { ProgressDashboard } from "./components/ProgressDashboard";
 import { VocabBrowser } from "./components/VocabBrowser";
 import { GrammarBrowser } from "./components/GrammarBrowser";
+import { TranslateTool } from "./components/TranslateTool";
 import { useDueSentences } from "./hooks/useSRS";
 import type { Sentence } from "./types/sentence";
 
-type Tab = "browse" | "practice" | "review" | "vocab" | "grammar" | "progress";
+type Tab = "browse" | "practice" | "review" | "vocab" | "grammar" | "translate" | "progress";
 
-// 簡化版導航(MVP 先不用 react-router,5 個分頁用 state 切換即可)。
+// 簡化版導航(MVP 先不用 react-router,分頁用 state 切換即可)。
 function App() {
   const [tab, setTab] = useState<Tab>("browse");
   const [activeSentence, setActiveSentence] = useState<Sentence | null>(null);
@@ -68,6 +69,13 @@ function App() {
           </button>
           <button
             type="button"
+            className={tab === "translate" ? "active" : ""}
+            onClick={() => setTab("translate")}
+          >
+            中翻韓
+          </button>
+          <button
+            type="button"
             className={tab === "progress" ? "active" : ""}
             onClick={() => setTab("progress")}
           >
@@ -89,6 +97,7 @@ function App() {
         {tab === "review" && <SRSReviewSession />}
         {tab === "vocab" && <VocabBrowser />}
         {tab === "grammar" && <GrammarBrowser />}
+        {tab === "translate" && <TranslateTool />}
         {tab === "progress" && <ProgressDashboard />}
       </main>
     </div>
