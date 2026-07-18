@@ -1,0 +1,104 @@
+[
+  {
+    "id": "hotel_checkin_001",
+    "domain": "hotel_frontdesk",
+    "category": "check_in",
+    "scenarioSet": "체크인 절차",
+    "korean": "안녕하세요! 체크인 도와드릴게요.",
+    "chinese": "您好！我幫您辦理入住。",
+    "formality": "formal_honorific",
+    "romanization": "annyeonghaseyo! chekeuin dowadeurilgeyo.",
+    "audioUrl": "/audio/hotel_checkin_001.mp3",
+    "notes": "Check-in 開場問候，語尾改為較柔和的「-ㄹ게요」，語氣更親切",
+    "alternates": [
+      { "korean": "안녕하세요. 체크인 도와드리겠습니다.", "usage": "較正式簡潔版本，適合非常忙碌或高規格場合" }
+    ],
+    "tags": ["敬語", "開場問候"],
+    "difficulty": 1
+  },
+  {
+    "id": "hotel_checkin_002",
+    "domain": "hotel_frontdesk",
+    "category": "check_in",
+    "scenarioSet": "체크인 절차",
+    "korean": "혹시 예약하신 성함이 어떻게 되실까요?",
+    "chinese": "請問您預訂時的大名是？",
+    "formality": "formal_honorific",
+    "romanization": "hoksi yeyakhasin seonghami eotteoke doesilkkayo?",
+    "audioUrl": "/audio/hotel_checkin_002.mp3",
+    "notes": "加上「혹시」緩衝詞、「-실까요」比「-시나요」更柔和",
+    "alternates": [
+      { "korean": "예약자 성함이 어떻게 되시나요?", "usage": "較直接版本" }
+    ],
+    "tags": ["敬語", "詢問資訊"],
+    "difficulty": 1
+  },
+  {
+    "id": "hotel_checkin_003",
+    "domain": "hotel_frontdesk",
+    "category": "check_in",
+    "scenarioSet": "체크인 절차",
+    "korean": "여권 좀 보여주시겠어요?",
+    "chinese": "方便讓我看一下護照嗎？",
+    "formality": "formal_honorific",
+    "romanization": "yeogwon jom boyeojusigesseoyo?",
+    "audioUrl": "/audio/hotel_checkin_003.mp3",
+    "notes": "「보여주시겠어요」比「확인 부탁드립니다」更像日常請求語氣，不生硬",
+    "alternates": [
+      { "korean": "여권 확인 부탁드립니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "要求文件"],
+    "difficulty": 1
+  },
+  {
+    "id": "hotel_checkin_004",
+    "domain": "hotel_frontdesk",
+    "category": "check_in",
+    "scenarioSet": "체크인 절차",
+    "korean": "전화번호랑 이메일 주소도 적어 주시겠어요?",
+    "chinese": "也麻煩留一下電話跟電子郵件喔。",
+    "formality": "formal_honorific",
+    "romanization": "jeonhwabeonhorang imeil jusodo jeogeo jusigesseoyo?",
+    "audioUrl": "/audio/hotel_checkin_004.mp3",
+    "notes": "「기재해」換成更口語的「적어」，聽起來自然許多",
+    "alternates": [
+      { "korean": "전화번호와 이메일 주소를 기재해 주시겠어요?", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "要求填寫"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_checkin_005",
+    "domain": "hotel_frontdesk",
+    "category": "check_in",
+    "scenarioSet": "체크인 절차",
+    "korean": "성함 한번 확인해 주시겠어요?",
+    "chinese": "麻煩您確認一下姓名喔。",
+    "formality": "formal_honorific",
+    "romanization": "seongham hanbeon hwaginhae jusigesseoyo?",
+    "audioUrl": "/audio/hotel_checkin_005.mp3",
+    "notes": "加入「한번」讓請求聽起來輕鬆、不強硬",
+    "alternates": [
+      { "korean": "성함이 맞는지 확인 부탁드립니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "確認資訊"],
+    "difficulty": 1
+  },
+  {
+    "id": "hotel_checkin_006",
+    "domain": "hotel_frontdesk",
+    "category": "check_in",
+    "scenarioSet": "체크인 절차",
+    "korean": "여기에 서명 한 번 부탁드릴게요.",
+    "chinese": "麻煩在這裡簽個名喔。",
+    "formality": "formal_honorific",
+    "romanization": "yeogie seomyeong han beon butakdeurilgeyo.",
+    "audioUrl": "/audio/hotel_checkin_006.mp3",
+    "notes": "「부탁드립니다」改為「부탁드릴게요」，語尾更柔和親切",
+    "alternates": [
+      { "korean": "여기에 서명 부탁드립니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "要求動作"],
+    "difficulty": 1
+  }
+]

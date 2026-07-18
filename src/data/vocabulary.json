@@ -1,0 +1,356 @@
+[
+  {
+    "korean": "수건",
+    "chinese": "毛巾",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "베개",
+    "chinese": "枕頭",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "이불",
+    "chinese": "棉被",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "슬리퍼",
+    "chinese": "拖鞋",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "침대 시트",
+    "chinese": "床單",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "에어컨",
+    "chinese": "冷氣",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "리모컨",
+    "chinese": "遙控器",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "드라이어",
+    "chinese": "吹風機",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "금고",
+    "chinese": "保險箱",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "정수기",
+    "chinese": "飲水機",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "전자레인지",
+    "chinese": "微波爐",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "제빙기",
+    "chinese": "製冰機",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "세탁실",
+    "chinese": "洗衣房",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "생수",
+    "chinese": "瓶裝水",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "방해금지 표시등",
+    "chinese": "請勿打擾燈",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "프런트 데스크",
+    "chinese": "櫃檯",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "체크아웃",
+    "chinese": "退房",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "예약",
+    "chinese": "訂房/預約",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "보증금",
+    "chinese": "保證金",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "객실 카드키",
+    "chinese": "房卡",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "엘리베이터",
+    "chinese": "電梯",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "로비",
+    "chinese": "大廳",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "모닝콜",
+    "chinese": "叫醒服務",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "조식",
+    "chinese": "早餐",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "짐 보관",
+    "chinese": "行李寄放",
+    "domain": "hotel_frontdesk",
+    "pos": "noun"
+  },
+  {
+    "korean": "예약하다",
+    "chinese": "訂房/預約",
+    "domain": "hotel_frontdesk",
+    "pos": "verb"
+  },
+  {
+    "korean": "취소하다",
+    "chinese": "取消",
+    "domain": "hotel_frontdesk",
+    "pos": "verb"
+  },
+  {
+    "korean": "연장하다",
+    "chinese": "延長(住宿天數等)",
+    "domain": "hotel_frontdesk",
+    "pos": "verb"
+  },
+  {
+    "korean": "문의하다",
+    "chinese": "詢問/洽詢",
+    "domain": "hotel_frontdesk",
+    "pos": "verb"
+  },
+  {
+    "korean": "요청하다",
+    "chinese": "請求/要求",
+    "domain": "hotel_frontdesk",
+    "pos": "verb"
+  },
+  {
+    "korean": "확인하다",
+    "chinese": "確認",
+    "domain": "hotel_frontdesk",
+    "pos": "verb"
+  },
+  {
+    "korean": "제공하다",
+    "chinese": "提供",
+    "domain": "hotel_frontdesk",
+    "pos": "verb"
+  },
+  {
+    "korean": "이용하다",
+    "chinese": "使用/利用",
+    "domain": "hotel_frontdesk",
+    "pos": "verb"
+  },
+  {
+    "korean": "고장 나다",
+    "chinese": "故障/壞掉",
+    "domain": "hotel_frontdesk",
+    "pos": "verb"
+  },
+  {
+    "korean": "교체하다",
+    "chinese": "更換",
+    "domain": "hotel_frontdesk",
+    "pos": "verb"
+  },
+  {
+    "korean": "불편하다",
+    "chinese": "不方便/不舒服",
+    "domain": "hotel_frontdesk",
+    "pos": "adjective"
+  },
+  {
+    "korean": "시끄럽다",
+    "chinese": "吵鬧",
+    "domain": "hotel_frontdesk",
+    "pos": "adjective"
+  },
+  {
+    "korean": "만족스럽다",
+    "chinese": "令人滿意",
+    "domain": "hotel_frontdesk",
+    "pos": "adjective"
+  },
+  {
+    "korean": "불친절하다",
+    "chinese": "不親切",
+    "domain": "hotel_frontdesk",
+    "pos": "adjective"
+  },
+  {
+    "korean": "소개팅",
+    "chinese": "相親/聯誼",
+    "domain": "daily_dating",
+    "pos": "noun"
+  },
+  {
+    "korean": "썸",
+    "chinese": "曖昧(關係)",
+    "domain": "daily_dating",
+    "pos": "noun"
+  },
+  {
+    "korean": "데이트",
+    "chinese": "約會",
+    "domain": "daily_dating",
+    "pos": "noun"
+  },
+  {
+    "korean": "고백",
+    "chinese": "告白",
+    "domain": "daily_dating",
+    "pos": "noun"
+  },
+  {
+    "korean": "사귀다",
+    "chinese": "交往",
+    "domain": "daily_dating",
+    "pos": "verb"
+  },
+  {
+    "korean": "애교",
+    "chinese": "撒嬌",
+    "domain": "daily_dating",
+    "pos": "noun"
+  },
+  {
+    "korean": "기념일",
+    "chinese": "紀念日",
+    "domain": "daily_dating",
+    "pos": "noun"
+  },
+  {
+    "korean": "설레다",
+    "chinese": "心動/小鹿亂撞",
+    "domain": "daily_dating",
+    "pos": "verb"
+  },
+  {
+    "korean": "고백하다",
+    "chinese": "告白",
+    "domain": "daily_dating",
+    "pos": "verb"
+  },
+  {
+    "korean": "헤어지다",
+    "chinese": "分手",
+    "domain": "daily_dating",
+    "pos": "verb"
+  },
+  {
+    "korean": "다가가다",
+    "chinese": "靠近/主動接近",
+    "domain": "daily_dating",
+    "pos": "verb"
+  },
+  {
+    "korean": "챙기다",
+    "chinese": "照顧/貼心關照",
+    "domain": "daily_dating",
+    "pos": "verb"
+  },
+  {
+    "korean": "그리워하다",
+    "chinese": "想念",
+    "domain": "daily_dating",
+    "pos": "verb"
+  },
+  {
+    "korean": "끌리다",
+    "chinese": "被吸引",
+    "domain": "daily_dating",
+    "pos": "verb"
+  },
+  {
+    "korean": "흔들리다",
+    "chinese": "(心)動搖",
+    "domain": "daily_dating",
+    "pos": "verb"
+  },
+  {
+    "korean": "오해하다",
+    "chinese": "誤會",
+    "domain": "daily_dating",
+    "pos": "verb"
+  },
+  {
+    "korean": "삐지다",
+    "chinese": "鬧彆扭/生悶氣",
+    "domain": "daily_dating",
+    "pos": "verb"
+  },
+  {
+    "korean": "어색하다",
+    "chinese": "尷尬/不自在",
+    "domain": "daily_dating",
+    "pos": "adjective"
+  },
+  {
+    "korean": "다정하다",
+    "chinese": "溫柔體貼",
+    "domain": "daily_dating",
+    "pos": "adjective"
+  },
+  {
+    "korean": "무뚝뚝하다",
+    "chinese": "木訥/不解風情",
+    "domain": "daily_dating",
+    "pos": "adjective"
+  }
+]

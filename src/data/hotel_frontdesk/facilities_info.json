@@ -1,0 +1,189 @@
+[
+  {
+    "id": "hotel_facilities_001",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "조식 및 시설 안내",
+    "korean": "조식은 아침 6시 30분부터 10시까지 편하게 즐기실 수 있어요.",
+    "chinese": "早餐從早上6:30到10:00都可以輕鬆享用喔。",
+    "formality": "formal_honorific",
+    "romanization": "josigeun achim yeoseotsi samsipbunbuteo yeolsikkaji pyeonhage jeulgisil su isseoyo.",
+    "audioUrl": "/audio/hotel_facilities_001.mp3",
+    "notes": "「즐기실 수 있어요」比單純「이용 가능합니다」更有服務溫度",
+    "alternates": [
+      { "korean": "조식은 오전 6시 30분부터 오전 10시까지 이용 가능합니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明", "時間"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_facilities_002",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "조식 및 시설 안내",
+    "korean": "피트니스 센터는 3층에 있고, 24시간 언제든지 이용하실 수 있어요.",
+    "chinese": "健身中心在3樓，24小時隨時都可以使用喔。",
+    "formality": "formal_honorific",
+    "romanization": "piteuniseu senteoneun samcheunge itgo, isipsasigan eonjedeunji iyonghasil su isseoyo.",
+    "audioUrl": "/audio/hotel_facilities_002.mp3",
+    "notes": "「언제든지」強調隨時可用，比單純講24小時更貼心",
+    "alternates": [
+      { "korean": "피트니스 센터는 3층에 있으며 24시간 운영됩니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明", "時間"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_facilities_003",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "조식 및 시설 안내",
+    "korean": "수영장은 아침 8시부터 저녁 8시까지 이용하실 수 있어요.",
+    "chinese": "游泳池從早上8點到晚上8點都可以使用喔。",
+    "formality": "formal_honorific",
+    "romanization": "suyeongjangeun achim yeodeolsibuteo jeonyeok yeodeolsikkaji iyonghasil su isseoyo.",
+    "audioUrl": "/audio/hotel_facilities_003.mp3",
+    "notes": "「오전/오후」改為「아침/저녁」，念起來更自然口語",
+    "alternates": [
+      { "korean": "수영장은 오전 8시부터 오후 8시까지 이용 가능합니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明", "時間"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_facilities_004",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "세탁실 안내",
+    "korean": "19층에 가시면 셀프 세탁실이 있어요.",
+    "chinese": "到19樓就有自助洗衣房喔。",
+    "formality": "formal_honorific",
+    "romanization": "sipgucheunge gasimyeon selpeu setaksiri isseoyo.",
+    "audioUrl": "/audio/hotel_facilities_004.mp3",
+    "notes": "「가시면」讓指引聽起來更像帶路的口吻，而非單純陳述",
+    "alternates": [
+      { "korean": "19층에는 셀프 세탁실이 있습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明", "樓層"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_facilities_005",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "세탁실 안내",
+    "korean": "세탁기랑 건조기는 동전 넣고 사용하시면 돼요.",
+    "chinese": "洗衣機和烘乾機投幣就可以用了喔。",
+    "formality": "formal_honorific",
+    "romanization": "setakgirang geonjogineun dongjeon neoko sayonghasimyeon dwaeyo.",
+    "audioUrl": "/audio/hotel_facilities_005.mp3",
+    "notes": "把名詞「동전식」改為動作說明「동전 넣고」，更好理解也更親切",
+    "alternates": [
+      { "korean": "세탁기와 건조기는 동전식입니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_facilities_006",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "세탁실 안내",
+    "korean": "전자레인지랑 제빙기도 같은 층인 19층에 있어요.",
+    "chinese": "微波爐和製冰機也在同一層19樓喔。",
+    "formality": "formal_honorific",
+    "romanization": "jeonjareinjirang jebinggido gateun cheungin sipgucheunge isseoyo.",
+    "audioUrl": "/audio/hotel_facilities_006.mp3",
+    "notes": "加上「같은 층인」讓資訊更好記，語氣也更貼心",
+    "alternates": [
+      { "korean": "전자레인지와 제빙기도 19층에 있습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明", "樓層"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_water_001",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "식수 안내",
+    "korean": "죄송하지만 객실에는 생수가 따로 준비되어 있지 않아요.",
+    "chinese": "不好意思，房內沒有另外準備瓶裝水喔。",
+    "formality": "formal_honorific",
+    "romanization": "joesonghajiman gaeksireneun saengsuga ttaro junbidoeeo itji anayo.",
+    "audioUrl": "/audio/hotel_water_001.mp3",
+    "notes": "加上「죄송하지만」緩衝，讓「沒有」這類資訊聽起來更委婉貼心",
+    "alternates": [
+      { "korean": "객실에는 생수가 제공되지 않습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_water_002",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "식수 안내",
+    "korean": "대신 객실 안에 물병이 준비되어 있어요.",
+    "chinese": "不過房內有備水瓶讓您裝水喔。",
+    "formality": "formal_honorific",
+    "romanization": "daesin gaeksil ane mulbyeongi junbidoeeo isseoyo.",
+    "audioUrl": "/audio/hotel_water_002.mp3",
+    "notes": "加上「대신」跟前一句銜接，讓語氣從「沒有」自然轉為「但有替代方案」",
+    "alternates": [
+      { "korean": "객실 내 물병이 준비되어 있습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_water_003",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "식수 안내",
+    "korean": "엘리베이터 옆에 있는 정수기를 편하게 이용하시면 돼요.",
+    "chinese": "電梯旁的飲水機可以輕鬆使用喔。",
+    "formality": "formal_honorific",
+    "romanization": "ellibeiteo yeope inneun jeongsugireul pyeonhage iyonghasimyeon dwaeyo.",
+    "audioUrl": "/audio/hotel_water_003.mp3",
+    "notes": "加入「편하게」＋「-시면 돼요」語尾，語氣更輕鬆",
+    "alternates": [
+      { "korean": "엘리베이터 옆 정수기를 이용하실 수 있습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明", "位置指引"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_water_004",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "식수 안내",
+    "korean": "뜨거운 물이 필요하시면 객실 안에 있는 전기포트를 이용해 주시면 돼요.",
+    "chinese": "如果需要熱水的話，用房內的電熱水壺就可以囉。",
+    "formality": "formal_honorific",
+    "romanization": "tteugeoun muri piryohasimyeon gaeksil ane inneun jeongipoteureul iyonghae jusimyeon dwaeyo.",
+    "audioUrl": "/audio/hotel_water_004.mp3",
+    "notes": "「-경우」改為「-시면」，聽起來像自然對話而非公告",
+    "alternates": [
+      { "korean": "뜨거운 물이 필요하신 경우 객실 내 전기포트를 이용해 주세요.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明"],
+    "difficulty": 3
+  },
+  {
+    "id": "hotel_water_005",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "식수 안내",
+    "korean": "아니면 3층 피트니스 센터에 있는 정수기를 이용하셔도 좋아요.",
+    "chinese": "或者也可以用3樓健身中心的飲水機喔。",
+    "formality": "formal_honorific",
+    "romanization": "animyeon samcheung piteuniseu senteoe inneun jeongsugireul iyonghasyeodo joayo.",
+    "audioUrl": "/audio/hotel_water_005.mp3",
+    "notes": "「-이용하셔도 좋아요」比「-이용하실 수 있습니다」更像溫暖的建議語氣",
+    "alternates": [
+      { "korean": "또는 3층 피트니스 센터의 정수기를 이용하실 수 있습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明", "位置指引"],
+    "difficulty": 2
+  }
+]

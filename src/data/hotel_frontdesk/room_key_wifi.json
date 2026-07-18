@@ -1,0 +1,70 @@
+[
+  {
+    "id": "hotel_roomkey_001",
+    "domain": "hotel_frontdesk",
+    "category": "room_key_wifi",
+    "scenarioSet": "객실 안내",
+    "korean": "고객님 객실은 1508호예요.",
+    "chinese": "您的房號是1508喔。",
+    "formality": "formal_honorific",
+    "romanization": "gogaengnim gaeksireun cheon-obaek-pal-hoeyo.",
+    "audioUrl": "/audio/hotel_roomkey_001.mp3",
+    "notes": "加上「고객님」稱呼＋「-예요」語尾，比生硬的「-입니다」親切",
+    "alternates": [
+      { "korean": "객실은 1508호입니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "房號"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_roomkey_002",
+    "domain": "hotel_frontdesk",
+    "category": "room_key_wifi",
+    "scenarioSet": "객실 안내",
+    "korean": "여기 객실 키 카드 드릴게요.",
+    "chinese": "這是您的房卡喔。",
+    "formality": "formal_honorific",
+    "romanization": "yeogi gaeksil ki kadeu deurilgeyo.",
+    "audioUrl": "/audio/hotel_roomkey_002.mp3",
+    "notes": "「드립니다」改為「드릴게요」，遞交物品時聽起來更自然",
+    "alternates": [
+      { "korean": "객실 키 카드입니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "遞交物品"],
+    "difficulty": 1
+  },
+  {
+    "id": "hotel_roomkey_003",
+    "domain": "hotel_frontdesk",
+    "category": "room_key_wifi",
+    "scenarioSet": "객실 안내",
+    "korean": "와이파이는 무료로 편하게 이용하실 수 있어요.",
+    "chinese": "Wi-Fi可以免費輕鬆使用喔。",
+    "formality": "formal_honorific",
+    "romanization": "waipaineun muryolo pyeonhage iyonghasil su isseoyo.",
+    "audioUrl": "/audio/hotel_roomkey_003.mp3",
+    "notes": "加入「편하게」增添貼心感",
+    "alternates": [
+      { "korean": "와이파이는 무료로 이용 가능합니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明"],
+    "difficulty": 1
+  },
+  {
+    "id": "hotel_roomkey_004",
+    "domain": "hotel_frontdesk",
+    "category": "room_key_wifi",
+    "scenarioSet": "객실 안내",
+    "korean": "아이디는 고객님 성함의 성으로, 비밀번호는 객실 번호 네 자리로 하시면 돼요.",
+    "chinese": "ID用您姓氏，密碼用房號四碼就可以囉。",
+    "formality": "formal_honorific",
+    "romanization": "aidineun gogaengnim seonghamui seongeuro, biminbeonhoneun gaeksil beonho ne jariro hasimyeon dwaeyo.",
+    "audioUrl": "/audio/hotel_roomkey_004.mp3",
+    "notes": "書面語「-이며」改為口語連接，「입니다」改為「하시면 돼요」更輕鬆",
+    "alternates": [
+      { "korean": "아이디는 고객님의 성이며, 비밀번호는 객실 번호 네 자리입니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明"],
+    "difficulty": 3
+  }
+]

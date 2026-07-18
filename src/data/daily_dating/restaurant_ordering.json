@@ -1,0 +1,206 @@
+[
+  {
+    "id": "dating_restaurant_001",
+    "domain": "daily_dating",
+    "category": "restaurant_ordering",
+    "scenarioSet": "분위기 및 취향",
+    "korean": "여기 분위기가 데이트하기 딱 좋은 것 같아요.",
+    "chinese": "這裡的氣氛感覺很適合約會耶。",
+    "formality": "polite",
+    "romanization": "yeogi bunwigiga deiteuhagi ttak joeun geot gatayo.",
+    "audioUrl": "/audio/dating_restaurant_001.mp3",
+    "notes": "「-기(에) 딱 좋다」是「剛好很適合做...」的高頻搭配句型",
+    "alternates": [],
+    "tags": [
+      "用餐",
+      "氣氛"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "dating_restaurant_002",
+    "domain": "daily_dating",
+    "category": "restaurant_ordering",
+    "scenarioSet": "식성 확인",
+    "korean": "매운 거 잘 못 드시면 다른 걸로 시킬까요?",
+    "chinese": "如果你不太能吃辣，要不要點別的？",
+    "formality": "polite",
+    "romanization": "maeun geo jal mot deusimyeon dareun geollo sikilkkayo?",
+    "audioUrl": "/audio/dating_restaurant_002.mp3",
+    "notes": "體貼詢問對方飲食狀況並主動提出替代方案，語序自然不生硬",
+    "alternates": [],
+    "tags": [
+      "用餐",
+      "體貼詢問"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "dating_restaurant_003",
+    "domain": "daily_dating",
+    "category": "restaurant_ordering",
+    "scenarioSet": "함께 나누기",
+    "korean": "저도 이거 처음 먹어보는데 한번 도전해볼게요.",
+    "chinese": "我也是第一次吃這個，來挑戰看看好了。",
+    "formality": "polite",
+    "romanization": "jeodo igeo cheoeum meogeoboneunde hanbeon dojeonhaebolgeyo.",
+    "audioUrl": "/audio/dating_restaurant_003.mp3",
+    "notes": "「도전해보다」＝嘗試挑戰，用在點菜情境顯得輕鬆有趣",
+    "alternates": [],
+    "tags": [
+      "用餐",
+      "互動"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "dating_restaurant_004",
+    "domain": "daily_dating",
+    "category": "restaurant_ordering",
+    "scenarioSet": "음주 여부",
+    "korean": "술은 잘 못하는 편이라 살짝만 마실게요.",
+    "chinese": "我算是不太會喝酒的，就喝一點點就好。",
+    "formality": "polite",
+    "romanization": "sureun jal motaneun pyeonira saljjakman masilgeyo.",
+    "audioUrl": "/audio/dating_restaurant_004.mp3",
+    "notes": "「-는 편이라」表達自己屬於某種傾向，比直述句更委婉自然",
+    "alternates": [],
+    "tags": [
+      "用餐",
+      "飲酒習慣"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "dating_restaurant_005",
+    "domain": "daily_dating",
+    "category": "restaurant_ordering",
+    "scenarioSet": "분위기 및 취향",
+    "korean": "이 집 완전 맛집이라고 소문났던데 진짜 그런가 봐요.",
+    "chinese": "聽說這家超有名，看來真的名不虛傳。",
+    "formality": "polite",
+    "romanization": "i jip wanjeon matjibirago somunnatdeonde jinjja geureonga bwayo.",
+    "audioUrl": "/audio/dating_restaurant_005.mp3",
+    "notes": "「-다고 소문나다」＝有傳聞說...，「-나 봐요」表示根據觀察推測，是中高級常見句型",
+    "alternates": [],
+    "tags": [
+      "用餐",
+      "評論"
+    ],
+    "difficulty": 4
+  },
+  {
+    "id": "dating_restaurant_006",
+    "domain": "daily_dating",
+    "category": "restaurant_ordering",
+    "scenarioSet": "식성 확인",
+    "korean": "제가 좀 짜게 먹는 편인데 괜찮으실지 모르겠네요.",
+    "chinese": "我口味算比較重的，不知道你會不會不習慣。",
+    "formality": "polite",
+    "romanization": "jega jom jjage meongneun pyeoninde gwaenchaneusilji moreugenneyo.",
+    "audioUrl": "/audio/dating_restaurant_006.mp3",
+    "notes": "「-ㄹ지 모르겠다」表示不確定的委婉語氣，避免顯得太武斷",
+    "alternates": [],
+    "tags": [
+      "用餐",
+      "體貼詢問"
+    ],
+    "difficulty": 4
+  },
+  {
+    "id": "dating_restaurant_007",
+    "domain": "daily_dating",
+    "category": "restaurant_ordering",
+    "scenarioSet": "다음 만남 제안",
+    "korean": "다음엔 제가 아는 맛집으로 모실게요.",
+    "chinese": "下次我帶你去我知道的好吃的地方。",
+    "formality": "polite",
+    "romanization": "daeumen jega aneun matjibeuro mosilgeyo.",
+    "audioUrl": "/audio/dating_restaurant_007.mp3",
+    "notes": "「모시다」是「데려가다」的敬語版，用在約會場景顯得體貼有禮",
+    "alternates": [],
+    "tags": [
+      "用餐",
+      "主動提議"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "dating_restaurant_008",
+    "domain": "daily_dating",
+    "category": "restaurant_ordering",
+    "scenarioSet": "계산하기",
+    "korean": "계산은 제가 할 테니까 다음번엔 부탁드려요.",
+    "chinese": "這次我來付，下次就麻煩你了。",
+    "formality": "polite",
+    "romanization": "gyesaneun jega hal tenikka daeumbeonen butakdeuryeoyo.",
+    "audioUrl": "/audio/dating_restaurant_008.mp3",
+    "notes": "「-ㄹ 테니까」表達說話者的意志加上理由，是常見的中級文法",
+    "alternates": [],
+    "tags": [
+      "用餐",
+      "付款"
+    ],
+    "difficulty": 4
+  },
+  {
+    "id": "dating_restaurant_009",
+    "domain": "daily_dating",
+    "category": "restaurant_ordering",
+    "scenarioSet": "식사 매너",
+    "korean": "배부르면 남겨도 되니까 편하게 드세요.",
+    "chinese": "吃飽了剩下也沒關係，不用勉強吃完。",
+    "formality": "polite",
+    "romanization": "baebureumyeon namgyeodo doenikka pyeonhage deuseyo.",
+    "audioUrl": "/audio/dating_restaurant_009.mp3",
+    "notes": "「-아/어도 되다」表示許可，展現體貼不強迫對方的態度",
+    "alternates": [],
+    "tags": [
+      "用餐",
+      "體貼"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "dating_restaurant_010",
+    "domain": "daily_dating",
+    "category": "restaurant_ordering",
+    "scenarioSet": "함께 나누기",
+    "korean": "입맛에 맞으실지 모르겠는데 한번 드셔보세요.",
+    "chinese": "不知道合不合你的胃口，你先嚐嚐看。",
+    "formality": "polite",
+    "romanization": "immase majeusilji moreugenneunde hanbeon deusyeoboseyo.",
+    "audioUrl": "/audio/dating_restaurant_010.mp3",
+    "notes": "「입맛에 맞다」是「合胃口」的慣用搭配詞",
+    "alternates": [],
+    "tags": [
+      "用餐",
+      "互動"
+    ],
+    "difficulty": 4
+  },
+  {
+    "id": "dating_restaurant_011",
+    "domain": "daily_dating",
+    "category": "restaurant_ordering",
+    "scenarioSet": "식사 후 감사 인사",
+    "korean": "오늘 밥 사줘서 고마워요. 다음엔 제가 살게요.",
+    "chinese": "謝謝你今天請我吃飯，下次換我請你。",
+    "formality": "polite",
+    "romanization": "oneul bap sajwoseo gomawoyo. daeumen jega salgeyo.",
+    "audioUrl": "/audio/dating_restaurant_011.mp3",
+    "notes": "「사주다」＝請客/幫忙買單，「-ㄹ게요」表達自己主動的承諾，是餐後道謝兼回請的自然說法",
+    "alternates": [
+      {
+        "korean": "잘 먹었습니다. 다음엔 제가 대접할게요.",
+        "usage": "更正式版本，適合對長輩或不熟的對象"
+      }
+    ],
+    "tags": [
+      "用餐",
+      "感謝",
+      "回請"
+    ],
+    "difficulty": 2
+  }
+]

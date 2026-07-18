@@ -1,0 +1,68 @@
+[
+  {
+    "id": "grammar_hotel_001",
+    "domain": "hotel_frontdesk",
+    "pattern": "-아/어 드릴게요",
+    "meaning": "我來為您做…",
+    "explanation": "動詞語幹 + 아/어 드릴게요,服務業對客人常用,語氣主動又客氣。語幹母音是 ㅏ/ㅗ 時接「아」,其餘接「어」。",
+    "example": {
+      "korean": "제가 짐을 옮겨 드릴게요.",
+      "chinese": "我來幫您搬行李。"
+    }
+  },
+  {
+    "id": "grammar_hotel_002",
+    "domain": "hotel_frontdesk",
+    "pattern": "-아/어 주시겠어요?",
+    "meaning": "可以請您…嗎?",
+    "explanation": "動詞語幹 + 아/어 주시겠어요?,比直接命令句委婉很多,是服務業請客人配合時最常見的句型。",
+    "example": {
+      "korean": "여권 좀 보여주시겠어요?",
+      "chinese": "可以請您出示護照嗎?"
+    }
+  },
+  {
+    "id": "grammar_hotel_003",
+    "domain": "hotel_frontdesk",
+    "pattern": "-(으)시겠어요?",
+    "meaning": "您要不要…?",
+    "explanation": "動詞語幹 + (으)시겠어요?,겠 表示意願/推測,시 是敬語,合起來就是禮貌地詢問對方的意願,常用在服務生詢問客人需求。",
+    "example": {
+      "korean": "조식은 몇 시에 드시겠어요?",
+      "chinese": "請問您幾點要用早餐?"
+    }
+  },
+  {
+    "id": "grammar_hotel_004",
+    "domain": "hotel_frontdesk",
+    "pattern": "-(으)면 됩니다",
+    "meaning": "只要…就可以了",
+    "explanation": "動詞/形容詞語幹 + (으)면 됩니다,用來簡單說明規則或步驟,讓對方知道「這樣做就行了」。",
+    "example": {
+      "korean": "프런트에 여권만 맡기시면 됩니다.",
+      "chinese": "只要把護照交給櫃檯就可以了。"
+    }
+  },
+  {
+    "id": "grammar_hotel_005",
+    "domain": "hotel_frontdesk",
+    "pattern": "-아/어도 될까요?",
+    "meaning": "我可以…嗎?",
+    "explanation": "動詞語幹 + 아/어도 될까요?,客人徵求許可時使用,比「-아/어도 돼요?」更禮貌,適合對服務人員或長輩使用。",
+    "example": {
+      "korean": "체크인을 조금 일찍 해도 될까요?",
+      "chinese": "我可以提早一點入住嗎?"
+    }
+  },
+  {
+    "id": "grammar_hotel_006",
+    "domain": "hotel_frontdesk",
+    "pattern": "-고 계세요?",
+    "meaning": "您正在…嗎?",
+    "explanation": "動詞語幹 + 고 계세요?,敬語版的現在進行式,계시다 是 있다 的敬語形,用來禮貌地詢問對方目前的狀態或動作。",
+    "example": {
+      "korean": "지금 체크아웃을 기다리고 계세요?",
+      "chinese": "您現在是在等待辦理退房嗎?"
+    }
+  }
+]

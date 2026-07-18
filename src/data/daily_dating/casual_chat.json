@@ -1,0 +1,223 @@
+[
+  {
+    "id": "dating_casualchat_001",
+    "domain": "daily_dating",
+    "category": "casual_chat",
+    "scenarioSet": "외모 칭찬",
+    "korean": "오늘 옷 되게 잘 어울리시는 것 같아요.",
+    "chinese": "你今天穿的衣服很好看，很適合你。",
+    "formality": "polite",
+    "romanization": "oneul ot doege jal eoullisineun geot gatayo.",
+    "audioUrl": "/audio/dating_casualchat_001.mp3",
+    "notes": "「잘 어울리다」＝很適合，是約會見面時很自然的稱讚開場",
+    "alternates": [],
+    "tags": [
+      "約會聊天",
+      "稱讚外表"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "dating_casualchat_002",
+    "domain": "daily_dating",
+    "category": "casual_chat",
+    "scenarioSet": "날씨 이야기",
+    "korean": "오늘 날씨가 좋아서 걷기 딱 좋은 것 같아요.",
+    "chinese": "今天天氣很好，很適合散步。",
+    "formality": "polite",
+    "romanization": "oneul nalssiga joaseo geotgi ttak joeun geot gatayo.",
+    "audioUrl": "/audio/dating_casualchat_002.mp3",
+    "notes": "天氣話題是很安全的破冰主題，也常順勢帶出接下來的行程提議",
+    "alternates": [],
+    "tags": [
+      "約會聊天",
+      "天氣話題"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "dating_casualchat_003",
+    "domain": "daily_dating",
+    "category": "casual_chat",
+    "scenarioSet": "일상 이야기",
+    "korean": "평소에 주말엔 보통 뭐 하세요?",
+    "chinese": "你平常週末通常都做什麼？",
+    "formality": "polite",
+    "romanization": "pyeongsoe jumaren botong mwo haseyo?",
+    "audioUrl": "/audio/dating_casualchat_003.mp3",
+    "notes": "詢問日常生活習慣的自然開場問句，適合延續話題",
+    "alternates": [],
+    "tags": [
+      "約會聊天",
+      "日常話題"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "dating_casualchat_004",
+    "domain": "daily_dating",
+    "category": "casual_chat",
+    "scenarioSet": "다음 코스 제안",
+    "korean": "이 근처에 사진 찍기 좋은 곳 있으면 같이 가볼까요?",
+    "chinese": "這附近如果有適合拍照的地方，要不要一起去看看？",
+    "formality": "polite",
+    "romanization": "i geuncheoe sajin jjikgi joeun got isseumyeon gachi gabolkkayo?",
+    "audioUrl": "/audio/dating_casualchat_004.mp3",
+    "notes": "「-ㄹ까요?」提議句型，用來自然帶出約會下一站行程",
+    "alternates": [],
+    "tags": [
+      "約會聊天",
+      "主動提議"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "dating_casualchat_005",
+    "domain": "daily_dating",
+    "category": "casual_chat",
+    "scenarioSet": "감정 표현",
+    "korean": "얘기하다 보니까 시간 가는 줄도 몰랐어요.",
+    "chinese": "聊著聊著都不知道時間過得這麼快。",
+    "formality": "polite",
+    "romanization": "yaegihada bonikka sigan ganeun juldo mollasseoyo.",
+    "audioUrl": "/audio/dating_casualchat_005.mp3",
+    "notes": "「-는 줄도 몰랐다」表示完全沒察覺，用來表達相處愉快、時間過得很快",
+    "alternates": [],
+    "tags": [
+      "約會聊天",
+      "感受表達"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "dating_casualchat_006",
+    "domain": "daily_dating",
+    "category": "casual_chat",
+    "scenarioSet": "사진 촬영",
+    "korean": "사진 한 장 같이 찍어도 될까요?",
+    "chinese": "可以一起拍張照嗎？",
+    "formality": "polite",
+    "romanization": "sajin han jang gachi jjigeodo doelkkayo?",
+    "audioUrl": "/audio/dating_casualchat_006.mp3",
+    "notes": "簡單直接的邀請句型，想留下紀念時很好用",
+    "alternates": [],
+    "tags": [
+      "約會聊天",
+      "拍照邀約"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "dating_casualchat_007",
+    "domain": "daily_dating",
+    "category": "casual_chat",
+    "scenarioSet": "취미 이야기",
+    "korean": "취미로 하시는 거 있으세요? 저는 요즘 필라테스에 빠졌어요.",
+    "chinese": "你有什麼興趣嗎？我最近很迷皮拉提斯。",
+    "formality": "polite",
+    "romanization": "chwimiro hasineun geo isseuseyo? jeoneun yojeum pillateseue ppajyeosseoyo.",
+    "audioUrl": "/audio/dating_casualchat_007.mp3",
+    "notes": "先分享自己的興趣再詢問對方，是延續話題的自然方式，「-에 빠지다」＝很迷/沉迷於某事",
+    "alternates": [],
+    "tags": [
+      "約會聊天",
+      "興趣話題"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "dating_casualchat_008",
+    "domain": "daily_dating",
+    "category": "casual_chat",
+    "scenarioSet": "다음 만남 이야기",
+    "korean": "다음엔 어디 가보고 싶은 곳 있으세요?",
+    "chinese": "下次你有沒有想去的地方？",
+    "formality": "polite",
+    "romanization": "daeumen eodi gabogo sipeun got isseuseyo?",
+    "audioUrl": "/audio/dating_casualchat_008.mp3",
+    "notes": "為下次見面鋪路的常見問句，語氣自然不會太急切",
+    "alternates": [],
+    "tags": [
+      "約會聊天",
+      "下次計畫"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "dating_casualchat_009",
+    "domain": "daily_dating",
+    "category": "casual_chat",
+    "scenarioSet": "외모 칭찬",
+    "korean": "제 생각엔 차은우 좀 닮으신 것 같아요. 그런 얘기 들어보신 적 있으세요?",
+    "chinese": "我覺得你長得有點像車銀優，有人這樣說過嗎？",
+    "formality": "polite",
+    "romanization": "je saenggagen chaeunu jom dalmeusin geot gatayo. geureon yaegi deureobosin jeok isseuseyo?",
+    "audioUrl": "/audio/dating_casualchat_009.mp3",
+    "notes": "「닮다」＝長得像，「그런 얘기 들어보신 적 있으세요?」是很自然的反問句型，可以替換成其他藝人名字",
+    "alternates": [
+      {
+        "korean": "혹시 예전에 연예인 닮았다는 소리 들어보신 적 있어요?",
+        "usage": "不指名特定藝人的更保險版本"
+      }
+    ],
+    "tags": [
+      "約會聊天",
+      "稱讚外表"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "dating_casualchat_010",
+    "domain": "daily_dating",
+    "category": "casual_chat",
+    "scenarioSet": "외모 칭찬",
+    "korean": "눈이 진짜 예쁘시네요.",
+    "chinese": "你的眼睛真的很漂亮。",
+    "formality": "polite",
+    "romanization": "nuni jinjja yeppeusineyo.",
+    "audioUrl": "/audio/dating_casualchat_010.mp3",
+    "notes": "簡短直接的五官稱讚句，「-네요」帶有驚喜、發現的語氣",
+    "alternates": [],
+    "tags": [
+      "約會聊天",
+      "稱讚外表"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "dating_casualchat_011",
+    "domain": "daily_dating",
+    "category": "casual_chat",
+    "scenarioSet": "외모 칭찬",
+    "korean": "웃는 모습이 되게 매력적이세요.",
+    "chinese": "你笑起來很有魅力。",
+    "formality": "polite",
+    "romanization": "utneun moseubi doege maeryeokjeogiseyo.",
+    "audioUrl": "/audio/dating_casualchat_011.mp3",
+    "notes": "稱讚笑容而不是外型本身，比較不會顯得太直接、唐突",
+    "alternates": [],
+    "tags": [
+      "約會聊天",
+      "稱讚外表"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "dating_casualchat_012",
+    "domain": "daily_dating",
+    "category": "casual_chat",
+    "scenarioSet": "외모 칭찬",
+    "korean": "오늘 스타일 진짜 잘 어울리세요. 패션 센스 좋으신 것 같아요.",
+    "chinese": "你今天的造型真的很適合你，感覺很有時尚品味。",
+    "formality": "polite",
+    "romanization": "oneul seutail jinjja jal eoullisineyo. paesyeon senseu joeusin geot gatayo.",
+    "audioUrl": "/audio/dating_casualchat_012.mp3",
+    "notes": "從整體造型切入的稱讚，比只稱讚長相更自然、不會太直白",
+    "alternates": [],
+    "tags": [
+      "約會聊天",
+      "稱讚外表"
+    ],
+    "difficulty": 2
+  }
+]

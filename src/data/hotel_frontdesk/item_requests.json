@@ -1,0 +1,104 @@
+[
+  {
+    "id": "hotel_itemreq_001",
+    "domain": "hotel_frontdesk",
+    "category": "item_requests",
+    "scenarioSet": "비품 요청 응대",
+    "korean": "큰 수건 바로 가져다드릴게요.",
+    "chinese": "馬上為您送浴巾過去。",
+    "formality": "formal_honorific",
+    "romanization": "keun sugeon baro gajyeodadeurilgeyo.",
+    "audioUrl": "/audio/hotel_itemreq_001.mp3",
+    "notes": "加上「바로」讓客人感覺被立即處理，語尾也改為較輕鬆的「-ㄹ게요」",
+    "alternates": [
+      { "korean": "큰 수건을 가져다드리겠습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "備品請求"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_itemreq_002",
+    "domain": "hotel_frontdesk",
+    "category": "item_requests",
+    "scenarioSet": "비품 요청 응대",
+    "korean": "중간 크기 수건도 바로 가져다드릴게요.",
+    "chinese": "中毛巾也馬上為您送過去。",
+    "formality": "formal_honorific",
+    "romanization": "junggan keugi sugeondo baro gajyeodadeurilgeyo.",
+    "audioUrl": "/audio/hotel_itemreq_002.mp3",
+    "notes": "同上，語氣更即時親切",
+    "alternates": [
+      { "korean": "중간 크기 수건을 가져다드리겠습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "備品請求"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_itemreq_003",
+    "domain": "hotel_frontdesk",
+    "category": "item_requests",
+    "scenarioSet": "비품 요청 응대",
+    "korean": "작은 수건 바로 가져다드릴게요.",
+    "chinese": "馬上為您送小毛巾過去。",
+    "formality": "formal_honorific",
+    "romanization": "jageun sugeon baro gajyeodadeurilgeyo.",
+    "audioUrl": "/audio/hotel_itemreq_003.mp3",
+    "notes": "同上",
+    "alternates": [
+      { "korean": "작은 수건을 가져다드리겠습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "備品請求"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_itemreq_004",
+    "domain": "hotel_frontdesk",
+    "category": "item_requests",
+    "scenarioSet": "비품 요청 응대",
+    "korean": "베개 하나 더 가져다드릴게요.",
+    "chinese": "再幫您多送一個枕頭過去。",
+    "formality": "formal_honorific",
+    "romanization": "begae hana deo gajyeodadeurilgeyo.",
+    "audioUrl": "/audio/hotel_itemreq_004.mp3",
+    "notes": "「추가로」改為「하나 더」，聽起來更口語自然",
+    "alternates": [
+      { "korean": "베개를 추가로 가져다드리겠습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "備品請求"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_itemreq_005",
+    "domain": "hotel_frontdesk",
+    "category": "item_requests",
+    "scenarioSet": "비품 요청 응대",
+    "korean": "이불도 하나 더 준비해 드릴게요.",
+    "chinese": "棉被也再幫您多準備一件。",
+    "formality": "formal_honorific",
+    "romanization": "ibuldo hana deo junbihae deurilgeyo.",
+    "audioUrl": "/audio/hotel_itemreq_005.mp3",
+    "notes": "同上",
+    "alternates": [
+      { "korean": "이불을 추가로 준비해 드리겠습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "備品請求"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_itemreq_006",
+    "domain": "hotel_frontdesk",
+    "category": "item_requests",
+    "scenarioSet": "비품 요청 응대",
+    "korean": "슬리퍼도 바로 가져다드릴게요.",
+    "chinese": "拖鞋也馬上幫您送過去。",
+    "formality": "formal_honorific",
+    "romanization": "seullipeodo baro gajyeodadeurilgeyo.",
+    "audioUrl": "/audio/hotel_itemreq_006.mp3",
+    "notes": "同上",
+    "alternates": [
+      { "korean": "슬리퍼를 가져다드리겠습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "備品請求"],
+    "difficulty": 2
+  }
+]

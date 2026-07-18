@@ -1,0 +1,68 @@
+[
+  {
+    "id": "grammar_dating_001",
+    "domain": "daily_dating",
+    "pattern": "-(으)ㄹ래요?",
+    "meaning": "要不要…?",
+    "explanation": "動詞語幹 + (으)ㄹ래요?,比「-을까요?」更直接、更口語,是約會邀約時很常用的隨性提議句型。",
+    "example": {
+      "korean": "이번 주말에 영화 볼래요?",
+      "chinese": "這個週末要不要一起看電影?"
+    }
+  },
+  {
+    "id": "grammar_dating_002",
+    "domain": "daily_dating",
+    "pattern": "-는 게 어때요?",
+    "meaning": "…怎麼樣?",
+    "explanation": "動詞語幹 + 는 게 어때요?,委婉提出建議,比直接命令更溫和,適合在約會情境裡提議行程或選擇。",
+    "example": {
+      "korean": "저녁은 파스타 먹는 게 어때요?",
+      "chinese": "晚餐吃義大利麵怎麼樣?"
+    }
+  },
+  {
+    "id": "grammar_dating_003",
+    "domain": "daily_dating",
+    "pattern": "-잖아요",
+    "meaning": "…不是嗎/你知道的",
+    "explanation": "動詞/形容詞語幹 + 잖아요,用來提醒或再次確認雙方都知道的事,語氣輕鬆親近,帶點撒嬌感。",
+    "example": {
+      "korean": "저 매운 음식 잘 못 먹잖아요.",
+      "chinese": "你知道的,我不太能吃辣。"
+    }
+  },
+  {
+    "id": "grammar_dating_004",
+    "domain": "daily_dating",
+    "pattern": "-인 것 같아요",
+    "meaning": "好像是…",
+    "explanation": "名詞 + 인 것 같아요(動詞/形容詞則用 -는/(으)ㄴ 것 같아요),韓文很常用這個句型委婉表達猜測或意見,避免講得太直接、太肯定。",
+    "example": {
+      "korean": "우리 취향이 비슷한 것 같아요.",
+      "chinese": "我們的喜好好像滿像的。"
+    }
+  },
+  {
+    "id": "grammar_dating_005",
+    "domain": "daily_dating",
+    "pattern": "-(으)면 좋겠어요",
+    "meaning": "希望能…",
+    "explanation": "動詞語幹 + (으)면 좋겠어요,委婉表達願望,比「-고 싶어요」更含蓄客氣,約會場合常用來表達期待。",
+    "example": {
+      "korean": "다음에 또 만나면 좋겠어요.",
+      "chinese": "希望下次還能再見面。"
+    }
+  },
+  {
+    "id": "grammar_dating_006",
+    "domain": "daily_dating",
+    "pattern": "-아/어서",
+    "meaning": "因為…所以/…然後",
+    "explanation": "動詞/形容詞語幹 + 아/어서,連接兩個子句,前面通常是原因或先發生的動作,後面是結果或接續的動作,約會情境常用來表達心情的原因。",
+    "example": {
+      "korean": "오랜만에 만나서 진짜 반가워요.",
+      "chinese": "很久沒見,真的很高興見到你。"
+    }
+  }
+]

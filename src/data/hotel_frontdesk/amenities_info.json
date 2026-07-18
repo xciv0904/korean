@@ -1,0 +1,70 @@
+[
+  {
+    "id": "hotel_amenities_001",
+    "domain": "hotel_frontdesk",
+    "category": "amenities_info",
+    "scenarioSet": "일회용품 안내",
+    "korean": "저희 호텔은 환경을 위해 일회용 어메니티를 따로 준비해 두지 않고 있어요.",
+    "chinese": "我們飯店為了環保，房內沒有另外準備一次性備品喔。",
+    "formality": "formal_honorific",
+    "romanization": "jeohui hotereun hwangyeongeul wihae ilhoeyong ameonitireul ttaro junbihae dueji ango isseoyo.",
+    "audioUrl": "/audio/hotel_amenities_001.mp3",
+    "notes": "加上「환경을 위해」說明原因，把單純的「不提供」變成有理由的政策說明，較不顯生硬",
+    "alternates": [
+      { "korean": "객실 내에는 일회용 어메니티가 제공되지 않습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_amenities_002",
+    "domain": "hotel_frontdesk",
+    "category": "amenities_info",
+    "scenarioSet": "일회용품 안내",
+    "korean": "칫솔이나 치약, 면도기도 따로 준비되어 있지는 않아요.",
+    "chinese": "牙刷、牙膏、刮鬍刀這些也沒有另外準備喔。",
+    "formality": "formal_honorific",
+    "romanization": "chitsorina chiyak, myeondogido ttaro junbidoeeo itjineun anayo.",
+    "audioUrl": "/audio/hotel_amenities_002.mp3",
+    "notes": "延續前一句語氣，銜接更自然",
+    "alternates": [
+      { "korean": "칫솔, 치약, 면도기는 제공되지 않습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_amenities_003",
+    "domain": "hotel_frontdesk",
+    "category": "amenities_info",
+    "scenarioSet": "일회용품 안내",
+    "korean": "혹시 필요하시면 프런트에서 구매하실 수 있으니 편하게 말씀해 주세요.",
+    "chinese": "如果需要的話，可以在櫃檯購買，儘管跟我們說喔。",
+    "formality": "formal_honorific",
+    "romanization": "hoksi piryohasimyeon peureonteueseo gumaehasil su isseuni pyeonhage malsseumhae juseyo.",
+    "audioUrl": "/audio/hotel_amenities_003.mp3",
+    "notes": "加上「편하게 말씀해 주세요」讓客人感覺可以放心開口",
+    "alternates": [
+      { "korean": "필요하신 경우 프런트 데스크에서 구매하실 수 있습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_amenities_004",
+    "domain": "hotel_frontdesk",
+    "category": "amenities_info",
+    "scenarioSet": "일회용품 안내",
+    "korean": "칫솔이랑 치약 세트는 NT$50이에요.",
+    "chinese": "牙刷牙膏組合是NT$50喔。",
+    "formality": "formal_honorific",
+    "romanization": "chitsorirang chiyak seteuneun NT$50ieyo.",
+    "audioUrl": "/audio/hotel_amenities_004.mp3",
+    "notes": "「-와/-입니다」改為「-이랑/-이에요」更輕鬆自然",
+    "alternates": [
+      { "korean": "칫솔·치약 세트는 NT$50입니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "價格說明"],
+    "difficulty": 1
+  }
+]

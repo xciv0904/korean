@@ -1,0 +1,36 @@
+[
+  {
+    "id": "hotel_phone_001",
+    "domain": "hotel_frontdesk",
+    "category": "phone_handling",
+    "scenarioSet": "전화 응대",
+    "korean": "네, 프런트입니다! 무엇을 도와드릴까요?",
+    "chinese": "您好，這裡是櫃檯！請問需要什麼協助？",
+    "formality": "formal_honorific",
+    "romanization": "ne, peureonteuimnida! mueoseul dowadeurilkkayo?",
+    "audioUrl": "/audio/hotel_phone_001.mp3",
+    "notes": "開頭加上「네」，語氣更有精神、親切",
+    "alternates": [
+      { "korean": "프런트 데스크입니다. 무엇을 도와드릴까요?", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "電話應對", "開場"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_phone_002",
+    "domain": "hotel_frontdesk",
+    "category": "phone_handling",
+    "scenarioSet": "전화 응대",
+    "korean": "혹시 객실 번호 좀 알려주시겠어요?",
+    "chinese": "方便告訴我一下房號嗎？",
+    "formality": "formal_honorific",
+    "romanization": "hoksi gaeksil beonho jom allyeojusigesseoyo?",
+    "audioUrl": "/audio/hotel_phone_002.mp3",
+    "notes": "加上「혹시」「좀」讓詢問聽起來更客氣不唐突",
+    "alternates": [
+      { "korean": "객실 번호를 알려주시겠어요?", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "電話應對", "詢問資訊"],
+    "difficulty": 2
+  }
+]

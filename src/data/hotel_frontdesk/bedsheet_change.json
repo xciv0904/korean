@@ -1,0 +1,36 @@
+[
+  {
+    "id": "hotel_bedsheet_001",
+    "domain": "hotel_frontdesk",
+    "category": "bedsheet_change",
+    "scenarioSet": "침구 교체",
+    "korean": "침대 시트 바로 새 걸로 바꿔 드릴게요.",
+    "chinese": "馬上為您換上新的床單。",
+    "formality": "formal_honorific",
+    "romanization": "chimdae siteu baro sae georo bakkwo deurilgeyo.",
+    "audioUrl": "/audio/hotel_bedsheet_001.mp3",
+    "notes": "加上「바로」「새 걸로」讓服務感更即時具體",
+    "alternates": [
+      { "korean": "침대 시트를 교체해 드리겠습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "房務"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_bedsheet_002",
+    "domain": "hotel_frontdesk",
+    "category": "bedsheet_change",
+    "scenarioSet": "침구 교체",
+    "korean": "하우스키핑 직원이 곧 올라가서 시트를 새로 바꿔 드릴 거예요.",
+    "chinese": "房務人員很快就會上去為您換上新床單。",
+    "formality": "formal_honorific",
+    "romanization": "hauseukiping jigwoni got ollagaseo siteureul saero bakkwo deuril geoyeyo.",
+    "audioUrl": "/audio/hotel_bedsheet_002.mp3",
+    "notes": "「방문하여」改為「올라가서」更口語，「예정입니다」改為「거예요」更輕鬆",
+    "alternates": [
+      { "korean": "하우스키핑 직원이 방문하여 시트를 교체해 드릴 예정입니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "房務", "轉達"],
+    "difficulty": 3
+  }
+]
