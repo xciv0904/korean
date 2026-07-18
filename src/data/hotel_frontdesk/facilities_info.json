@@ -11,9 +11,16 @@
     "audioUrl": "/audio/hotel_facilities_001.mp3",
     "notes": "「즐기실 수 있어요」比單純「이용 가능합니다」更有服務溫度",
     "alternates": [
-      { "korean": "조식은 오전 6시 30분부터 오전 10시까지 이용 가능합니다.", "usage": "較正式版本" }
+      {
+        "korean": "조식은 오전 6시 30분부터 오전 10시까지 이용 가능합니다.",
+        "usage": "較正式版本"
+      }
     ],
-    "tags": ["敬語", "設施說明", "時間"],
+    "tags": [
+      "敬語",
+      "設施說明",
+      "時間"
+    ],
     "difficulty": 2
   },
   {
@@ -28,9 +35,16 @@
     "audioUrl": "/audio/hotel_facilities_002.mp3",
     "notes": "「언제든지」強調隨時可用，比單純講24小時更貼心",
     "alternates": [
-      { "korean": "피트니스 센터는 3층에 있으며 24시간 운영됩니다.", "usage": "較正式版本" }
+      {
+        "korean": "피트니스 센터는 3층에 있으며 24시간 운영됩니다.",
+        "usage": "較正式版本"
+      }
     ],
-    "tags": ["敬語", "設施說明", "時間"],
+    "tags": [
+      "敬語",
+      "設施說明",
+      "時間"
+    ],
     "difficulty": 2
   },
   {
@@ -45,9 +59,16 @@
     "audioUrl": "/audio/hotel_facilities_003.mp3",
     "notes": "「오전/오후」改為「아침/저녁」，念起來更自然口語",
     "alternates": [
-      { "korean": "수영장은 오전 8시부터 오후 8시까지 이용 가능합니다.", "usage": "較正式版本" }
+      {
+        "korean": "수영장은 오전 8시부터 오후 8시까지 이용 가능합니다.",
+        "usage": "較正式版本"
+      }
     ],
-    "tags": ["敬語", "設施說明", "時間"],
+    "tags": [
+      "敬語",
+      "設施說明",
+      "時間"
+    ],
     "difficulty": 2
   },
   {
@@ -62,9 +83,16 @@
     "audioUrl": "/audio/hotel_facilities_004.mp3",
     "notes": "「가시면」讓指引聽起來更像帶路的口吻，而非單純陳述",
     "alternates": [
-      { "korean": "19층에는 셀프 세탁실이 있습니다.", "usage": "較正式版本" }
+      {
+        "korean": "19층에는 셀프 세탁실이 있습니다.",
+        "usage": "較正式版本"
+      }
     ],
-    "tags": ["敬語", "設施說明", "樓層"],
+    "tags": [
+      "敬語",
+      "設施說明",
+      "樓層"
+    ],
     "difficulty": 2
   },
   {
@@ -79,9 +107,15 @@
     "audioUrl": "/audio/hotel_facilities_005.mp3",
     "notes": "把名詞「동전식」改為動作說明「동전 넣고」，更好理解也更親切",
     "alternates": [
-      { "korean": "세탁기와 건조기는 동전식입니다.", "usage": "較正式版本" }
+      {
+        "korean": "세탁기와 건조기는 동전식입니다.",
+        "usage": "較正式版本"
+      }
     ],
-    "tags": ["敬語", "設施說明"],
+    "tags": [
+      "敬語",
+      "設施說明"
+    ],
     "difficulty": 2
   },
   {
@@ -96,9 +130,16 @@
     "audioUrl": "/audio/hotel_facilities_006.mp3",
     "notes": "加上「같은 층인」讓資訊更好記，語氣也更貼心",
     "alternates": [
-      { "korean": "전자레인지와 제빙기도 19층에 있습니다.", "usage": "較正式版本" }
+      {
+        "korean": "전자레인지와 제빙기도 19층에 있습니다.",
+        "usage": "較正式版本"
+      }
     ],
-    "tags": ["敬語", "設施說明", "樓層"],
+    "tags": [
+      "敬語",
+      "設施說明",
+      "樓層"
+    ],
     "difficulty": 2
   },
   {
@@ -113,9 +154,15 @@
     "audioUrl": "/audio/hotel_water_001.mp3",
     "notes": "加上「죄송하지만」緩衝，讓「沒有」這類資訊聽起來更委婉貼心",
     "alternates": [
-      { "korean": "객실에는 생수가 제공되지 않습니다.", "usage": "較正式版本" }
+      {
+        "korean": "객실에는 생수가 제공되지 않습니다.",
+        "usage": "較正式版本"
+      }
     ],
-    "tags": ["敬語", "設施說明"],
+    "tags": [
+      "敬語",
+      "設施說明"
+    ],
     "difficulty": 2
   },
   {
@@ -130,9 +177,15 @@
     "audioUrl": "/audio/hotel_water_002.mp3",
     "notes": "加上「대신」跟前一句銜接，讓語氣從「沒有」自然轉為「但有替代方案」",
     "alternates": [
-      { "korean": "객실 내 물병이 준비되어 있습니다.", "usage": "較正式版本" }
+      {
+        "korean": "객실 내 물병이 준비되어 있습니다.",
+        "usage": "較正式版本"
+      }
     ],
-    "tags": ["敬語", "設施說明"],
+    "tags": [
+      "敬語",
+      "設施說明"
+    ],
     "difficulty": 2
   },
   {
@@ -147,9 +200,16 @@
     "audioUrl": "/audio/hotel_water_003.mp3",
     "notes": "加入「편하게」＋「-시면 돼요」語尾，語氣更輕鬆",
     "alternates": [
-      { "korean": "엘리베이터 옆 정수기를 이용하실 수 있습니다.", "usage": "較正式版本" }
+      {
+        "korean": "엘리베이터 옆 정수기를 이용하실 수 있습니다.",
+        "usage": "較正式版本"
+      }
     ],
-    "tags": ["敬語", "設施說明", "位置指引"],
+    "tags": [
+      "敬語",
+      "設施說明",
+      "位置指引"
+    ],
     "difficulty": 2
   },
   {
@@ -164,9 +224,15 @@
     "audioUrl": "/audio/hotel_water_004.mp3",
     "notes": "「-경우」改為「-시면」，聽起來像自然對話而非公告",
     "alternates": [
-      { "korean": "뜨거운 물이 필요하신 경우 객실 내 전기포트를 이용해 주세요.", "usage": "較正式版本" }
+      {
+        "korean": "뜨거운 물이 필요하신 경우 객실 내 전기포트를 이용해 주세요.",
+        "usage": "較正式版本"
+      }
     ],
-    "tags": ["敬語", "設施說明"],
+    "tags": [
+      "敬語",
+      "設施說明"
+    ],
     "difficulty": 3
   },
   {
@@ -181,9 +247,111 @@
     "audioUrl": "/audio/hotel_water_005.mp3",
     "notes": "「-이용하셔도 좋아요」比「-이용하실 수 있습니다」更像溫暖的建議語氣",
     "alternates": [
-      { "korean": "또는 3층 피트니스 센터의 정수기를 이용하실 수 있습니다.", "usage": "較正式版本" }
+      {
+        "korean": "또는 3층 피트니스 센터의 정수기를 이용하실 수 있습니다.",
+        "usage": "較正式版本"
+      }
     ],
-    "tags": ["敬語", "設施說明", "位置指引"],
+    "tags": [
+      "敬語",
+      "設施說明",
+      "位置指引"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_facilities_007",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "정문 주변 안내",
+    "korean": "정문에서 나가셔서 왼쪽으로 5분 정도 걸어가시면 백화점이 있어요.",
+    "chinese": "從大門出去，往左邊走五分鐘左右，有一間百貨公司。",
+    "formality": "formal_honorific",
+    "romanization": "jeongmuneseo nagasyeoseo oenjjogeuro obun jeongdo georeogasimyeon baekhwajeomi isseoyo.",
+    "audioUrl": "/audio/hotel_facilities_007.mp3",
+    "notes": "「나가셔서」＝出去(敬語),「-으로 5분 정도 걸어가시면」是指路常用句型,方向+時間+動詞再接「-면 있어요」",
+    "alternates": [
+      {
+        "korean": "정문에서 나가신 후 왼쪽으로 5분 정도 이동하시면 백화점이 있습니다.",
+        "usage": "較正式版本"
+      }
+    ],
+    "tags": [
+      "敬語",
+      "設施說明",
+      "位置指引"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_facilities_008",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "정문 주변 안내",
+    "korean": "정문에서 나가셔서 오른쪽으로 5분 정도 걸어가시면 편의점이 있어요.",
+    "chinese": "從大門出去，往右邊走五分鐘左右，有一間便利商店。",
+    "formality": "formal_honorific",
+    "romanization": "jeongmuneseo nagasyeoseo oreunjjogeuro obun jeongdo georeogasimyeon pyeonuijeomi isseoyo.",
+    "audioUrl": "/audio/hotel_facilities_008.mp3",
+    "notes": "跟上一句是同一句型只換方向(왼쪽→오른쪽)跟目的地,方便對照練習兩個方向的講法",
+    "alternates": [
+      {
+        "korean": "정문에서 나가신 후 오른쪽으로 5분 정도 이동하시면 편의점이 있습니다.",
+        "usage": "較正式版本"
+      }
+    ],
+    "tags": [
+      "敬語",
+      "設施說明",
+      "位置指引"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_facilities_009",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "흡연 구역 안내",
+    "korean": "흡연 구역은 정문 오른쪽에 있어요.",
+    "chinese": "吸菸區在大門右側區域。",
+    "formality": "formal_honorific",
+    "romanization": "heubyeon guyeogeun jeongmun oreunjjoge isseoyo.",
+    "audioUrl": "/audio/hotel_facilities_009.mp3",
+    "notes": "「흡연 구역」＝吸菸區,飯店室內全面禁菸,客人問的時候直接指出戶外吸菸區位置",
+    "alternates": [
+      {
+        "korean": "흡연 구역은 정문 오른쪽에 위치해 있습니다.",
+        "usage": "較正式版本"
+      }
+    ],
+    "tags": [
+      "敬語",
+      "設施說明",
+      "位置指引"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_facilities_010",
+    "domain": "hotel_frontdesk",
+    "category": "facilities_info",
+    "scenarioSet": "매점 및 주류 안내",
+    "korean": "죄송하지만 여기서는 맥주를 판매하지 않아요.",
+    "chinese": "不好意思，這裡沒有賣啤酒。",
+    "formality": "formal_honorific",
+    "romanization": "joesonghajiman yeogiseoneun maekjureul panmaehaji anayo.",
+    "audioUrl": "/audio/hotel_facilities_010.mp3",
+    "notes": "加「죄송하지만」讓「不賣/沒有」聽起來更委婉,跟前面 식수 안내 幾句的語氣一致;可以搭配 hotel_facilities_008 的便利商店那句一起用,建議客人去附近便利商店買",
+    "alternates": [
+      {
+        "korean": "이곳에서는 맥주를 판매하지 않습니다.",
+        "usage": "較正式版本"
+      }
+    ],
+    "tags": [
+      "敬語",
+      "設施說明"
+    ],
     "difficulty": 2
   }
 ]
