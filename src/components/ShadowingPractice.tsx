@@ -2,8 +2,14 @@ import { useState } from "react";
 import type { Sentence, SelfAssessment } from "../types/sentence";
 import { SentenceCard } from "./SentenceCard";
 import { AudioRecorder } from "./AudioRecorder";
+import { Celebration } from "./Celebration";
 import { useSRS } from "../hooks/useSRS";
 import { saveRecordingBlob } from "../hooks/useIndexedDB";
+import {
+  XP_PER_ATTEMPT,
+  pickEncouragingMessage,
+  pickGentleMessage,
+} from "../lib/gamification";
 
 interface ShadowingPracticeProps {
   sentence: Sentence;
@@ -23,10 +29,16 @@ export function ShadowingPractice({ sentence, onNext }: ShadowingPracticeProps) 
   const [lastAssessment, setLastAssessment] = useState<SelfAssessment | null>(
     null
   );
+  const [celebrationKey, setCelebrationKey] = useState(0);
+  const [celebrationMessage, setCelebrationMessage] = useState<{
+    ko: string;
+    zh: string;
+  } | null>(null);
 
   const handleRecorded = (blob: Blob) => {
     setUserBlob(blob);
     setLastAssessment(null);
+    setCelebrationMessage(null);
   };
 
   const handleAssess = async (assessment: SelfAssessment) => {
@@ -37,6 +49,10 @@ export function ShadowingPractice({ sentence, onNext }: ShadowingPracticeProps) 
       await saveRecordingBlob(audioBlobKey, userBlob);
       await recordAttempt(assessment, audioBlobKey);
       setLastAssessment(assessment);
+      setCelebrationMessage(
+        assessment === "satisfied" ? pickEncouragingMessage() : pickGentleMessage()
+      );
+      setCelebrationKey((k) => k + 1);
     } finally {
       setSaving(false);
     }
@@ -72,8 +88,14 @@ export function ShadowingPractice({ sentence, onNext }: ShadowingPracticeProps) 
           </div>
         )}
 
-        {lastAssessment && record && (
+        {lastAssessment && record && celebrationMessage && (
           <div className="shadowing-practice__result">
+            <Celebration
+              triggerKey={celebrationKey}
+              message={celebrationMessage}
+              variant={lastAssessment === "satisfied" ? "burst" : "gentle"}
+              xpGained={lastAssessment === "satisfied" ? XP_PER_ATTEMPT : undefined}
+            />
             <p>
               已記錄 #{record.practiceCount} 次練習,下次複習時間:{" "}
               {new Date(record.srs.nextReviewAt + "T00:00:00").toLocaleDateString()}

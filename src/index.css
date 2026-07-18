@@ -78,6 +78,13 @@ p {
   margin: 0 0 var(--space-3);
 }
 
+button {
+  transition: transform 0.12s ease;
+}
+button:active:not(:disabled) {
+  transform: scale(0.96);
+}
+
 :focus {
   outline: none;
 }

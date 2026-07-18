@@ -4,8 +4,8 @@ import { GrammarCard } from "./GrammarCard";
 import type { Sentence } from "../types/sentence";
 
 const DOMAIN_LABEL: Record<Sentence["domain"], string> = {
-  hotel_frontdesk: "飯店櫃檯",
-  daily_dating: "日常約會",
+  hotel_frontdesk: "🏨 飯店櫃檯",
+  daily_dating: "💕 日常約會",
 };
 
 // 文法瀏覽(架構文件之外的補充功能):依 domain 分兩組,跟句庫/單字表

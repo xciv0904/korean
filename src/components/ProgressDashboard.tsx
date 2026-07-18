@@ -7,10 +7,15 @@ import {
   useAllPracticeRecords,
 } from "../hooks/useIndexedDB";
 import type { Sentence } from "../types/sentence";
+import {
+  computeLevelInfo,
+  computeTotalXP,
+  computeUnlockedAchievements,
+} from "../lib/gamification";
 
 const DOMAIN_LABEL: Record<Sentence["domain"], string> = {
-  hotel_frontdesk: "飯店櫃檯",
-  daily_dating: "日常約會",
+  hotel_frontdesk: "🏨 飯店櫃檯",
+  daily_dating: "💕 日常約會",
 };
 
 // Category 是資料檔案裡的英文代碼(例如 "check_in"、"casual_chat"),只拿來
@@ -76,6 +81,14 @@ export function ProgressDashboard() {
     records,
   ]);
 
+  const levelInfo = useMemo(() => computeLevelInfo(computeTotalXP(records)), [records]);
+
+  const achievements = useMemo(
+    () => computeUnlockedAchievements(records, streak),
+    [records, streak]
+  );
+  const unlockedCount = achievements.filter((a) => a.unlocked).length;
+
   const handleExport = async () => {
     const data = await exportProgress();
     const json = JSON.stringify(data, null, 2);
@@ -139,9 +152,55 @@ export function ProgressDashboard() {
 
   return (
     <div className="progress-dashboard">
-      <div className="progress-dashboard__streak">
-        <span className="progress-dashboard__streak-number">{streak}</span>
-        <span>天連續練習</span>
+      <div className="progress-dashboard__top">
+        <div className="progress-dashboard__streak">
+          <span className="progress-dashboard__streak-number">{streak}</span>
+          <span>天連續練習</span>
+        </div>
+
+        <div className="progress-dashboard__level">
+          <div className="progress-dashboard__level-badge">Lv.{levelInfo.level}</div>
+          <div className="progress-dashboard__level-info">
+            <div className="progress-dashboard__level-xp">
+              {levelInfo.xpIntoLevel} / {levelInfo.xpForNextLevel} XP
+            </div>
+            <div className="progress-dashboard__level-track">
+              <div
+                className="progress-dashboard__level-fill"
+                style={{ width: `${levelInfo.progressPct}%` }}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="progress-dashboard__achievements">
+        <h3>
+          成就徽章 <span className="progress-dashboard__achievements-count">{unlockedCount} / {achievements.length}</span>
+        </h3>
+        <div className="progress-dashboard__achievements-grid">
+          {achievements.map(({ achievement, unlocked }) => (
+            <div
+              key={achievement.id}
+              className={
+                unlocked
+                  ? "achievement-badge achievement-badge--unlocked"
+                  : "achievement-badge"
+              }
+              title={achievement.description}
+            >
+              <span className="achievement-badge__emoji" aria-hidden="true">
+                {achievement.emoji}
+              </span>
+              <span className="achievement-badge__title" lang="ko">
+                {achievement.title}
+              </span>
+              <span className="achievement-badge__desc" lang="zh-Hant">
+                {achievement.description}
+              </span>
+            </div>
+          ))}
+        </div>
       </div>
 
       <div className="progress-dashboard__list">

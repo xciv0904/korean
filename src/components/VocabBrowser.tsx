@@ -4,8 +4,8 @@ import { VocabCard } from "./VocabCard";
 import type { Sentence, VocabPos } from "../types/sentence";
 
 const DOMAIN_LABEL: Record<Sentence["domain"], string> = {
-  hotel_frontdesk: "飯店櫃檯",
-  daily_dating: "日常約會",
+  hotel_frontdesk: "🏨 飯店櫃檯",
+  daily_dating: "💕 日常約會",
 };
 
 const POS_ORDER: VocabPos[] = ["noun", "verb", "adjective"];

@@ -7,8 +7,8 @@ interface ScenarioBrowserProps {
 }
 
 const DOMAIN_LABEL: Record<Sentence["domain"], string> = {
-  hotel_frontdesk: "飯店櫃檯",
-  daily_dating: "日常約會",
+  hotel_frontdesk: "🏨 飯店櫃檯",
+  daily_dating: "💕 日常約會",
 };
 
 // 依 Domain → Category → ScenarioSet 階層瀏覽(架構文件 3.1 節)。

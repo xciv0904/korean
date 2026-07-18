@@ -7,10 +7,19 @@ import { ProgressDashboard } from "./components/ProgressDashboard";
 import { VocabBrowser } from "./components/VocabBrowser";
 import { GrammarBrowser } from "./components/GrammarBrowser";
 import { TranslateTool } from "./components/TranslateTool";
+import { DailyChallenge } from "./components/DailyChallenge";
 import { useDueSentences } from "./hooks/useSRS";
 import type { Sentence } from "./types/sentence";
 
-type Tab = "browse" | "practice" | "review" | "vocab" | "grammar" | "translate" | "progress";
+type Tab =
+  | "browse"
+  | "practice"
+  | "review"
+  | "challenge"
+  | "vocab"
+  | "grammar"
+  | "translate"
+  | "progress";
 
 // 簡化版導航(MVP 先不用 react-router,分頁用 state 切換即可)。
 function App() {
@@ -33,7 +42,7 @@ function App() {
             className={tab === "browse" ? "active" : ""}
             onClick={() => setTab("browse")}
           >
-            情境瀏覽
+            📖 情境瀏覽
           </button>
           <button
             type="button"
@@ -41,45 +50,52 @@ function App() {
             onClick={() => setTab("practice")}
             disabled={!activeSentence}
           >
-            跟讀練習
+            🎙️ 跟讀練習
           </button>
           <button
             type="button"
             className={tab === "review" ? "active" : ""}
             onClick={() => setTab("review")}
           >
-            今日複習
+            🔁 今日複習
             {dueSentences.length > 0 && (
               <span className="app__nav-badge">{dueSentences.length}</span>
             )}
           </button>
           <button
             type="button"
+            className={tab === "challenge" ? "active" : ""}
+            onClick={() => setTab("challenge")}
+          >
+            🎯 每日挑戰
+          </button>
+          <button
+            type="button"
             className={tab === "vocab" ? "active" : ""}
             onClick={() => setTab("vocab")}
           >
-            單字
+            📚 單字
           </button>
           <button
             type="button"
             className={tab === "grammar" ? "active" : ""}
             onClick={() => setTab("grammar")}
           >
-            文法
+            ✏️ 文法
           </button>
           <button
             type="button"
             className={tab === "translate" ? "active" : ""}
             onClick={() => setTab("translate")}
           >
-            中翻韓
+            🌐 中翻韓
           </button>
           <button
             type="button"
             className={tab === "progress" ? "active" : ""}
             onClick={() => setTab("progress")}
           >
-            進度總覽
+            📊 進度總覽
           </button>
         </nav>
       </header>
@@ -95,6 +111,7 @@ function App() {
           <p>先到「情境瀏覽」選一句開始練習。</p>
         )}
         {tab === "review" && <SRSReviewSession />}
+        {tab === "challenge" && <DailyChallenge />}
         {tab === "vocab" && <VocabBrowser />}
         {tab === "grammar" && <GrammarBrowser />}
         {tab === "translate" && <TranslateTool />}
