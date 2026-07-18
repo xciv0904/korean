@@ -32,5 +32,73 @@
     ],
     "tags": ["敬語", "房務", "轉達"],
     "difficulty": 3
+  },
+  {
+    "id": "hotel_bedsheet_003",
+    "domain": "hotel_frontdesk",
+    "category": "bedsheet_change",
+    "scenarioSet": "침구 교체",
+    "korean": "수건도 같이 새 걸로 바꿔 드릴까요?",
+    "chinese": "要順便幫您把毛巾也換成新的嗎？",
+    "formality": "formal_honorific",
+    "romanization": "sugeondo gachi sae georo bakkwo deurilkkayo?",
+    "audioUrl": "/audio/hotel_bedsheet_003.mp3",
+    "notes": "換床單時順口多問一句，是很自然的加值服務",
+    "alternates": [
+      { "korean": "수건도 함께 교체해 드릴까요?", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "房務"],
+    "difficulty": 1
+  },
+  {
+    "id": "hotel_bedsheet_004",
+    "domain": "hotel_frontdesk",
+    "category": "bedsheet_change",
+    "scenarioSet": "침구 교체",
+    "korean": "지금 방에 계세요, 아니면 나중에 방문해도 될까요?",
+    "chinese": "您現在在房間裡嗎？還是我們晚點再過去比較方便？",
+    "formality": "formal_honorific",
+    "romanization": "jigeum bange gyeseyo, animyeon najunge bangmunhaedo doelkkayo?",
+    "audioUrl": "/audio/hotel_bedsheet_004.mp3",
+    "notes": "進房前先確認房客在不在，尊重房客隱私",
+    "alternates": [
+      { "korean": "지금 방에 계시는지 확인 부탁드립니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "房務", "詢問資訊"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_bedsheet_005",
+    "domain": "hotel_frontdesk",
+    "category": "bedsheet_change",
+    "scenarioSet": "침구 교체",
+    "korean": "혹시 알레르기 있으신 세제나 원하시는 침구 종류가 있으실까요?",
+    "chinese": "請問您對洗劑會過敏，或有偏好的寢具材質嗎？",
+    "formality": "formal_honorific",
+    "romanization": "hoksi allereugi isseusin sejena wonhasineun chimgu jongnyuga isseulkkayo?",
+    "audioUrl": "/audio/hotel_bedsheet_005.mp3",
+    "notes": "貼心詢問過敏或偏好，適合高規格服務場景",
+    "alternates": [
+      { "korean": "알레르기가 있으신 세제가 있으신지 확인해도 될까요?", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "房務", "詢問資訊"],
+    "difficulty": 3
+  },
+  {
+    "id": "hotel_bedsheet_006",
+    "domain": "hotel_frontdesk",
+    "category": "bedsheet_change",
+    "scenarioSet": "침구 교체",
+    "korean": "침구 교체는 매일 해 드릴까요, 아니면 요청하실 때만 해 드릴까요?",
+    "chinese": "床單要每天為您更換，還是您需要時再跟我們說就好？",
+    "formality": "formal_honorific",
+    "romanization": "chimgu gyochereun maeil hae deurilkkayo, animyeon yocheonghasil ttaeman hae deurilkkayo?",
+    "audioUrl": "/audio/hotel_bedsheet_006.mp3",
+    "notes": "讓房客自己選擇服務頻率，常見於環保/節能提示情境",
+    "alternates": [
+      { "korean": "침구 교체 주기를 선택하실 수 있습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "房務", "詢問資訊"],
+    "difficulty": 2
   }
 ]

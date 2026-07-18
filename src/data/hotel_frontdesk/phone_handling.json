@@ -32,5 +32,56 @@
     ],
     "tags": ["敬語", "電話應對", "詢問資訊"],
     "difficulty": 2
+  },
+  {
+    "id": "hotel_phone_003",
+    "domain": "hotel_frontdesk",
+    "category": "phone_handling",
+    "scenarioSet": "전화 응대",
+    "korean": "잠시만 기다려 주시면 담당 부서로 연결해 드릴게요.",
+    "chinese": "請稍等，我幫您轉接到相關部門。",
+    "formality": "formal_honorific",
+    "romanization": "jamsiman gidaryeo jusimyeon damdang buseoro yeongyeolhae deurilgeyo.",
+    "audioUrl": "/audio/hotel_phone_003.mp3",
+    "notes": "轉接電話時的標準說法，先請對方稍等再說明動作",
+    "alternates": [
+      { "korean": "담당 부서로 연결해 드리겠습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "電話應對", "轉接"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_phone_004",
+    "domain": "hotel_frontdesk",
+    "category": "phone_handling",
+    "scenarioSet": "전화 응대",
+    "korean": "죄송하지만 지금 자리에 안 계세요. 다시 전화드리라고 전해 드릴까요?",
+    "chinese": "不好意思，他現在不在座位上，需要請他再回電給您嗎？",
+    "formality": "formal_honorific",
+    "romanization": "joesonghajiman jigeum jarie an gyeseyo. dasi jeonhwadeuriago jeonhae deurilkkayo?",
+    "audioUrl": "/audio/hotel_phone_004.mp3",
+    "notes": "對方要找的人不在時，先致歉再主動提議留言轉達",
+    "alternates": [
+      { "korean": "죄송합니다만 현재 자리에 계시지 않습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "電話應對", "轉達"],
+    "difficulty": 3
+  },
+  {
+    "id": "hotel_phone_005",
+    "domain": "hotel_frontdesk",
+    "category": "phone_handling",
+    "scenarioSet": "전화 응대",
+    "korean": "죄송합니다, 지금 통화 중이신 것 같아요. 메시지 남겨 드릴까요?",
+    "chinese": "不好意思，現在電話好像佔線中，需要幫您留言嗎？",
+    "formality": "formal_honorific",
+    "romanization": "joesonghamnida, jigeum tonghwa jungisin geot gatayo. mesiji namgyeo deurilkkayo?",
+    "audioUrl": "/audio/hotel_phone_005.mp3",
+    "notes": "無法立即接通時的委婉說法＋主動提供留言選項",
+    "alternates": [
+      { "korean": "지금 통화 중이십니다. 메모를 남겨 드리겠습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "電話應對", "轉達"],
+    "difficulty": 3
   }
 ]

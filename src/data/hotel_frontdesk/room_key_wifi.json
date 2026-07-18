@@ -66,5 +66,56 @@
     ],
     "tags": ["敬語", "設施說明"],
     "difficulty": 3
+  },
+  {
+    "id": "hotel_roomkey_005",
+    "domain": "hotel_frontdesk",
+    "category": "room_key_wifi",
+    "scenarioSet": "객실 안내",
+    "korean": "체크아웃하실 때 카드키는 프런트에 반납해 주시면 됩니다.",
+    "chinese": "退房時把房卡交還給櫃檯就可以了。",
+    "formality": "formal_honorific",
+    "romanization": "chekeuaut hasil ttae kadeukineun peureonteue bannaphae jusimyeon doemnida.",
+    "audioUrl": "/audio/hotel_roomkey_005.mp3",
+    "notes": "入住時順口交代退房流程，避免房客忘記歸還房卡",
+    "alternates": [
+      { "korean": "카드키는 퇴실 시 프런트에 반납해 주시기 바랍니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "房號", "設施說明"],
+    "difficulty": 2
+  },
+  {
+    "id": "hotel_roomkey_006",
+    "domain": "hotel_frontdesk",
+    "category": "room_key_wifi",
+    "scenarioSet": "객실 안내",
+    "korean": "카드키가 안 먹히시면 프런트로 다시 가져다 주세요, 바로 재발급해 드릴게요.",
+    "chinese": "如果房卡感應不到，麻煩拿回櫃檯，我們馬上幫您重新發卡。",
+    "formality": "formal_honorific",
+    "romanization": "kadeukiga an meokisimyeon peureonteuro dasi gajyeoda juseyo, baro jaebalgeuphae deurilgeyo.",
+    "audioUrl": "/audio/hotel_roomkey_006.mp3",
+    "notes": "「안 먹히다」是口語常用說法，指卡片感應失敗",
+    "alternates": [
+      { "korean": "카드키가 인식되지 않으시면 프런트로 문의해 주시기 바랍니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "房卡", "故障處理"],
+    "difficulty": 3
+  },
+  {
+    "id": "hotel_roomkey_007",
+    "domain": "hotel_frontdesk",
+    "category": "room_key_wifi",
+    "scenarioSet": "객실 안내",
+    "korean": "와이파이 비밀번호는 방 안 카드 꽂이 옆에 적혀 있어요.",
+    "chinese": "Wi-Fi密碼寫在房間裡插卡座旁邊喔。",
+    "formality": "formal_honorific",
+    "romanization": "waipai bimilbeonhoneun bang an kadeu kkojji yeope jeokhyeo isseoyo.",
+    "audioUrl": "/audio/hotel_roomkey_007.mp3",
+    "notes": "常見追加問題：客人在房內找不到密碼時的說明",
+    "alternates": [
+      { "korean": "와이파이 비밀번호는 객실 내 카드 꽂이 옆에 표기되어 있습니다.", "usage": "較正式版本" }
+    ],
+    "tags": ["敬語", "設施說明"],
+    "difficulty": 2
   }
 ]

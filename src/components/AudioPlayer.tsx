@@ -39,9 +39,7 @@ export function AudioPlayer({ src, label }: AudioPlayerProps) {
         preload="none"
       />
       {playError && (
-        <span className="audio-player__error">
-          音檔無法播放（範例音檔可能尚未生成，見 ttsGenerator.ts TODO）
-        </span>
+        <span className="audio-player__error">錄音無法播放，請重新錄一次試試。</span>
       )}
     </div>
   );

@@ -42,6 +42,25 @@
   --shadow-lg: 0 12px 32px color-mix(in srgb, #242a35 22%, transparent);
 }
 
+/* 深色模式(切換按鈕在導覽列,選擇存在 localStorage,見 App.tsx)。
+   全站樣式都是透過上面這組 CSS variable tokens 套用的,深色模式只要在這裡
+   覆寫 token 的值,其他元件(App.css 裡的所有樣式)完全不用改,顏色會自動
+   跟著換。強調色(--color-accent / --color-accent-2 系列)保留原本色相,
+   只調整最淺的 100 階(卡片底色)避免在深色背景上刺眼。 */
+[data-theme="dark"] {
+  --color-bg: #191d24;
+  --color-surface: #232834;
+  --color-text: #e7eaf0;
+  --color-divider: color-mix(in srgb, #e7eaf0 16%, transparent);
+
+  --color-accent-100: color-mix(in srgb, var(--color-accent) 24%, #191d24);
+  --color-accent-2-100: color-mix(in srgb, var(--color-accent-2) 24%, #191d24);
+
+  --shadow-sm: 0 1px 2px color-mix(in srgb, #000 40%, transparent);
+  --shadow-md: 0 3px 10px color-mix(in srgb, #000 45%, transparent);
+  --shadow-lg: 0 12px 32px color-mix(in srgb, #000 55%, transparent);
+}
+
 * ,
 *::before,
 *::after {

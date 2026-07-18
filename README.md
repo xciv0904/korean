@@ -155,6 +155,19 @@ SRS_INTERVALS = [1, 2, 4, 7, 14, 30, 60]  // 天數
 
 - `src/components/Settings.tsx`、`src/lib/azureConfig.ts`、`src/lib/wavEncoder.ts`、`src/lib/pronunciationAssessment.ts` 這 4 個檔案已經沒有任何地方引用,技術上刪不掉(跟前面提到的 `public/icons.svg` 一樣,這個資料夾是唯讀掛載,只能新增/覆蓋不能刪除),麻煩你自己在 Finder 裡刪掉這 4 個檔案就可以,不影響網站運作。
 
+## 第十四輪:部署前優化(檔案清理 / 補句子 / 分享預覽 / 深色模式)
+
+你問「還有哪些是可以優化的」,選了以下四項:
+
+- **清理殘留檔案**:`AudioPlayer.tsx` 裡有一句過時的錯誤訊息(還提到已經刪掉的 `ttsGenerator.ts TODO`,但這個元件現在其實只用來播放你自己的錄音),已經改成「錄音無法播放,請重新錄一次試試」比較符合實際用途。`public/audio/` 的舊測試音檔、`public/icons.svg`、前一輪提到的 4 個 Azure 孤兒檔案都還在(技術上刪不掉,見下方檔案清單),不影響網站運作,想清乾淨的話請自行在 Finder 刪除。
+- **補充內容偏少的情境**:三個句子數偏少的分類各補了幾句,更貼近實際會遇到的狀況:
+  - `phone_handling`(電話應對):2 → 5 句,新增轉接電話、對方不在座位、電話佔線時留言這三種常見狀況
+  - `bedsheet_change`(換床單/房務):2 → 6 句,新增順帶詢問要不要換毛巾、進房前確認房客在不在、詢問過敏/寢具偏好、詢問換洗頻率
+  - `room_key_wifi`(房卡/WiFi):4 → 7 句,新增退房歸還房卡的提醒、房卡感應失敗的處理、WiFi 密碼在房內的位置說明
+  - 句庫總數:121 → **131 句**
+- **分享連結預覽**:`index.html` 加了 Open Graph / Twitter Card meta 標籤(`og:title`、`og:description`、`og:image` 等),搭配新做的 `public/og-image.png`(1200×630,藍色系底圖 + 網站名稱 + 功能標籤)。之前把網站連結分享到 LINE、訊息、社群平台只會顯示一串網址,現在會顯示標題、說明文字跟這張預覽卡片圖。
+- **深色模式**:標題列右上角新增 🌙/☀️ 切換按鈕。因為整個網站的顏色本來就是透過 CSS variable(`--color-bg`、`--color-surface`、`--color-text` 等)套用的,深色模式只要在 `src/index.css` 新增 `[data-theme="dark"]` 覆寫這組變數的值就好,所有元件的樣式(App.css 裡的規則)完全不用改,顏色會自動跟著切換。選擇會存在 `localStorage`,重新整理或下次造訪都會記得;第一次造訪且還沒手動選過的話,會跟隨手機/電腦系統的深色模式設定。邏輯在 `src/hooks/useTheme.ts`。
+
 ## 其他備註
 
 - **不顯示羅馬拼音**:依你的要求,句卡已經拿掉羅馬拼音顯示/切換按鈕,只留韓文 + 中文,逼自己直接讀諺文。這剛好也是原本設計交付檔裡明確寫的產品需求(「No romanization is shown anywhere ... per product requirement」),兩邊一致。
@@ -167,14 +180,15 @@ SRS_INTERVALS = [1, 2, 4, 7, 14, 30, 60]  // 天數
 ```
 src/
 ├── data/
-│   ├── hotel_frontdesk/ daily_dating/   # 句庫 JSON(共 103 句)
+│   ├── hotel_frontdesk/ daily_dating/   # 句庫 JSON(共 131 句)
 │   ├── grammar/                         # 文法 JSON(飯店 6 + 約會 6)
 │   └── vocabulary.json                  # 單字表(飯店 25 + 約會 10 = 35)
 ├── components/     # ScenarioBrowser / SentenceCard / ShadowingPractice / AudioRecorder / AudioPlayer /
 │                   # SRSReviewSession / ProgressDashboard / VocabBrowser / VocabCard /
 │                   # GrammarBrowser / GrammarCard / TranslateTool / DailyChallenge / Celebration /
 │                   # ErrorBoundary
-├── hooks/          # useAudioRecorder / useSRS(含 useDueSentences)/ useIndexedDB(含匯出匯入)
+├── hooks/          # useAudioRecorder / useSRS(含 useDueSentences)/ useIndexedDB(含匯出匯入)/
+│                   # useTheme(深色模式)
 ├── lib/            # srsAlgorithm.ts(已複製 Caption Note 邏輯)/ ttsGenerator.ts(未使用,保留參考)/
 │                   # gamification.ts(XP/等級/成就)/ dailyChallenge.ts(每日挑戰洗牌邏輯)
 └── App.tsx         # 8 個分頁的簡易導覽(瀏覽 / 練習 / 複習 / 每日挑戰 / 單字 / 文法 / 中翻韓 / 進度)

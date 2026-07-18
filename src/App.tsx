@@ -9,6 +9,7 @@ import { GrammarBrowser } from "./components/GrammarBrowser";
 import { TranslateTool } from "./components/TranslateTool";
 import { DailyChallenge } from "./components/DailyChallenge";
 import { useDueSentences } from "./hooks/useSRS";
+import { useTheme } from "./hooks/useTheme";
 import type { Sentence } from "./types/sentence";
 
 type Tab =
@@ -26,6 +27,7 @@ function App() {
   const [tab, setTab] = useState<Tab>("browse");
   const [activeSentence, setActiveSentence] = useState<Sentence | null>(null);
   const { dueSentences } = useDueSentences();
+  const { theme, toggleTheme } = useTheme();
 
   const handleSelectSentence = (sentence: Sentence) => {
     setActiveSentence(sentence);
@@ -35,7 +37,17 @@ function App() {
   return (
     <div className="app">
       <header className="app__header">
-        <h1>韓文情境口說練習</h1>
+        <div className="app__header-top">
+          <h1>韓文情境口說練習</h1>
+          <button
+            type="button"
+            className="app__theme-toggle"
+            onClick={toggleTheme}
+            aria-label={theme === "light" ? "切換成深色模式" : "切換成淺色模式"}
+          >
+            {theme === "light" ? "🌙" : "☀️"}
+          </button>
+        </div>
         <nav className="app__nav">
           <button
             type="button"

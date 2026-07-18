@@ -23,7 +23,7 @@ import vocabularyRaw from "./vocabulary.json";
 import grammarHotel from "./grammar/hotel_frontdesk.json";
 import grammarDating from "./grammar/daily_dating.json";
 
-// 完整句庫(共 121 句,取自使用者提供的文字檔 + 後續新增,涵蓋飯店櫃檯 8 個情境 +
+// 完整句庫(共 131 句,取自使用者提供的文字檔 + 後續新增,涵蓋飯店櫃檯 8 個情境 +
 // 日常約會 6 個情境)。新增/擴充句子時,在對應 domain 資料夾新增 JSON 檔,
 // 並在下方陣列 push 進去即可,元件端不需要改動。
 export const ALL_SENTENCES: Sentence[] = [
